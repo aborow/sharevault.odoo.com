@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+acess_sharevault_general,Sharevault: general,sharevault.model_sharevault_sharevault,,1,0,0,0
+acess_sharevault_manager,Sharevault: manager,sharevault.model_sharevault_sharevault,sharevault.sharevault_manager,1,1,1,1

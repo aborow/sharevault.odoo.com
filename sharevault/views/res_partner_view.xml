@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="view_partner_form">
+            <field name="name">Sharevault</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='vat']" position="after">
+                    <field name="sharevault_ids" invisible="1"/>
+                </xpath>
+
+                <xpath expr="//div[@name='button_box']/button[last()]" position="before">
+                    <button name="%(sharevault.action_sharevault_sharevault)d"
+                        type="action"
+                        context="{'search_default_partner_id': active_id, 'default_partner_id': active_id}"
+                        class="oe_stat_button" icon="fa-archive"
+                        attrs="{'invisible':[('sharevault_ids','=',[])]}">
+                        <field name="sharevault_ids_count" string="Sharevaults"
+                                widget="statinfo" />
+                    </button>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
