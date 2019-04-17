@@ -10,6 +10,7 @@ class Sharevault(models.Model):
     _description = 'ShareVaults'
 
     name = fields.Char('Name', required=True)
+    key = fields.Integer('Key')
     company_id = fields.Many2one('res.company', 'Company')
     type = fields.Selection([('sv','SV'),('sve','SVe')], 'Type')
     partner_id = fields.Many2one('res.partner', 'Owner')

@@ -69,7 +69,7 @@
             <field name="name">sharevault.form</field>
             <field name="model">sharevault.sharevault</field>
             <field name="arch" type="xml">
-                <form string="Sharevault">
+                <form string="ShareVault">
                     <sheet>
                         <div class="oe_button_box" name="button_box">
                         </div>
@@ -79,7 +79,9 @@
                             </h1>
                         </div>
                         <group>
-                            <group></group>
+                            <group>
+                                <field name="key"/>
+                            </group>
                             <group>
                                 <field name="type"/>
                                 <field name="lead_id"/>
@@ -136,14 +138,14 @@
         </record>
 
         <menuitem id="sharevault_menu_root"
-            name="Sharevault"
+            name="ShareVault"
             web_icon="sharevault,static/description/icon.png"
             active="True"
             sequence="1"
             groups="sharevault.sharevault_manager"/>
 
         <menuitem id="sharevault_menu"
-            name="Sharevaults"
+            name="ShareVaults"
             parent="sharevault_menu_root"
             sequence="2"/>
 
@@ -157,7 +159,7 @@
         </record>
 
         <menuitem id="sharevault_sharevault_menu"
-            name="Sharevaults"
+            name="ShareVaults"
             parent="sharevault_menu"
             action="action_sharevault_sharevault"
             sequence="4"/>

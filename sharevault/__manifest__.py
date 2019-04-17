@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 {
-    'name': 'Sharevault',
+    'name': 'ShareVault',
     'version': '1.0',
     'category': 'Tools',
     'author': 'Wibtec',
     'website': 'www.wibtec.com',
-    'summary': 'Setup for Sharevault',
+    'summary': 'Setup for ShareVault',
     'description': """
 
-- Sharevault data model
+- ShareVault data model
 
 """,
     'depends': [
