@@ -6,7 +6,7 @@
             <field name="name">sharevault.list.select</field>
             <field name="model">sharevault.sharevault</field>
             <field name="arch" type="xml">
-                <search string="Search Sharevaults">
+                <search string="Search ShareVaults">
                     <field name="name"/>
                     <field name="type"/>
                     <field name="partner_id"/>
@@ -55,7 +55,7 @@
             <field name="name">sharevault.sharevault.tree</field>
             <field name="model">sharevault.sharevault</field>
             <field name="arch" type="xml">
-                <tree string="Sharevaults">
+                <tree string="ShareVaults">
                     <field name="name"/>
                     <field name="type"/>
                     <field name="date_creation"/>
@@ -106,7 +106,7 @@
                             </group>
                         </group>
                         <group>
-                            <group string="Quotes">
+                            <group string="Quotas">
                                 <field name="quota_pages"/>
                                 <field name="quota_users"/>
                                 <field name="quota_mb"/>
@@ -149,7 +149,7 @@
 
 
         <record id="action_sharevault_sharevault" model="ir.actions.act_window">
-            <field name="name">Sharevaults</field>
+            <field name="name">ShareVaults</field>
             <field name="res_model">sharevault.sharevault</field>
             <field name="view_type">form</field>
             <field name="view_mode">kanban,form,tree</field>

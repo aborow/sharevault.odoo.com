@@ -7,7 +7,7 @@ from odoo import api, fields, models, tools, _
 
 class Sharevault(models.Model):
     _name = 'sharevault.sharevault'
-    _description = 'Sharevaults'
+    _description = 'ShareVaults'
 
     name = fields.Char('Name', required=True)
     company_id = fields.Many2one('res.company', 'Company')

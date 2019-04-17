@@ -8,7 +8,7 @@ from odoo import api, fields, models, tools, _
 class Lead(models.Model):
     _inherit = 'crm.lead'
 
-    sharevault_id = fields.Many2one('sharevault.sharevault','Sharevault')
+    sharevault_id = fields.Many2one('sharevault.sharevault','ShareVault')
 
 
     """

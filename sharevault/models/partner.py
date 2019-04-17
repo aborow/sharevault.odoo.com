@@ -8,8 +8,8 @@ _logger = logging.getLogger(__name__)
 class Partner(models.Model):
     _inherit = 'res.partner'
 
-    sharevault_ids = fields.One2many('sharevault.sharevault', 'partner_id', 'Sharevaults')
-    sharevault_ids_count = fields.Integer('Sharevault count', compute='get_sharevault_count')
+    sharevault_ids = fields.One2many('sharevault.sharevault', 'partner_id', 'ShareVaults')
+    sharevault_ids_count = fields.Integer('ShareVault count', compute='get_sharevault_count')
 
     @api.multi
     def get_sharevault_count(self):

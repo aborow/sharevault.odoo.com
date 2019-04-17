@@ -3,7 +3,7 @@
     <data>
 
         <record model="ir.ui.view" id="view_partner_form">
-            <field name="name">Sharevault</field>
+            <field name="name">ShareVault</field>
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
@@ -17,7 +17,7 @@
                         context="{'search_default_partner_id': active_id, 'default_partner_id': active_id}"
                         class="oe_stat_button" icon="fa-archive"
                         attrs="{'invisible':[('sharevault_ids','=',[])]}">
-                        <field name="sharevault_ids_count" string="Sharevaults"
+                        <field name="sharevault_ids_count" string="ShareVaults"
                                 widget="statinfo" />
                     </button>
                 </xpath>
