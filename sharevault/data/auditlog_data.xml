@@ -9,6 +9,7 @@
             <field name="log_write" eval="True"/>
             <field name="log_unlink" eval="True"/>
             <field name="log_create" eval="True"/>
+            <field name="state">subscribed</field>
         </record>
 
         <record id="auditlog_crm_lead" model="auditlog.rule">
@@ -18,6 +19,7 @@
             <field name="log_write" eval="True"/>
             <field name="log_unlink" eval="True"/>
             <field name="log_create" eval="True"/>
+            <field name="state">subscribed</field>
         </record>
 
         <record id="auditlog_sale_order" model="auditlog.rule">
@@ -27,6 +29,7 @@
             <field name="log_write" eval="True"/>
             <field name="log_unlink" eval="True"/>
             <field name="log_create" eval="True"/>
+            <field name="state">subscribed</field>
         </record>
 
         <record id="auditlog_account_invoice" model="auditlog.rule">
@@ -36,6 +39,7 @@
             <field name="log_write" eval="True"/>
             <field name="log_unlink" eval="True"/>
             <field name="log_create" eval="True"/>
+            <field name="state">subscribed</field>
         </record>
 
         <record id="auditlog_helpdesk_ticket" model="auditlog.rule">
@@ -45,6 +49,7 @@
             <field name="log_write" eval="True"/>
             <field name="log_unlink" eval="True"/>
             <field name="log_create" eval="True"/>
+            <field name="state">subscribed</field>
         </record>
 
     </data>
