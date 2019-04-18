@@ -20,6 +20,16 @@
                         <field name="sharevault_ids_count" string="ShareVaults"
                                 widget="statinfo" />
                     </button>
+
+                    <!-- show auditlog -->
+                    <button name="call_auditlog"
+                        type="object"
+                        class="oe_stat_button" icon="fa-bars"
+                        attrs="{'invisible':[('auditlog_ids_count','=',0)]}">
+                        <field name="auditlog_ids_count" string="Logs"
+                                widget="statinfo" />
+                    </button>
+
                 </xpath>
             </field>
         </record>
