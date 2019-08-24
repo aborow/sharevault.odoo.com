@@ -74,27 +74,6 @@
         </record>
 
 
-        <!-- Job Level -->
-        <record id="job_level_1" model="res.partner.job_level">
-            <field name="name">CLEVEL</field>
-        </record>
-        <record id="job_level_2" model="res.partner.job_level">
-            <field name="name">Dir+</field>
-        </record>
-        <record id="job_level_3" model="res.partner.job_level">
-            <field name="name">IndContributor</field>
-        </record>
-        <record id="job_level_4" model="res.partner.job_level">
-            <field name="name">Mgr+</field>
-        </record>
-        <record id="job_level_5" model="res.partner.job_level">
-            <field name="name">Other</field>
-        </record>
-        <record id="job_level_6" model="res.partner.job_level">
-            <field name="name">VP+</field>
-        </record>
-
-
         <!-- Lead Type -->
         <record id="lead_type_1" model="res.partner.lead_type">
             <field name="name">CGL</field>

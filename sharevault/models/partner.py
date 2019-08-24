@@ -107,7 +107,15 @@ class Partner(models.Model):
 
 
     # new fields from XLS (select)
-    job_level = fields.Selection([('null','null')], 'Job Level') #SKYPE
+    job_level = fields.Selection([
+                                ('CLEVEL','CLEVEL'),
+                                ('Dir+','Dir+'),
+                                ('IndContributor','IndContributor'),
+                                ('Mgr+','Mgr+'),
+                                ('Other','Other'),
+                                ('VP+','VP+')
+                                ], 'Job Level')
+
     sharevault_activated_user = fields.Selection([('null','null')], 'ShareVault Activated User')
     sharevault_admin = fields.Selection([('null','null')], 'ShareVault Admin')
     sharevault_domain = fields.Selection([('null','null')], 'ShareVault Domain')
