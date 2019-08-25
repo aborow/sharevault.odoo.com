@@ -101,6 +101,7 @@ class Partner(models.Model):
     shareVault_subscription = fields.Boolean('ShareVault Subscription')
     shareVault_user = fields.Integer('ShareVault User ID')
     agree_data_collection = fields.Boolean('Agree with data collection')
+    number_employees = fields.Integer('Number of Employees')
 
     account_status_id = fields.Many2one('res.partner.account_status', 'Account Status')
     data_source_id = fields.Many2one('res.partner.data_source', 'Data Source') #SKYPE
@@ -133,6 +134,10 @@ class Partner(models.Model):
     sharevault_domain = fields.Selection([('null','null')], 'ShareVault Domain')
     sharevault_email_subscription = fields.Selection([('null','null')], 'ShareVault Email Subscription')
     shareVault_publisher = fields.Selection([('null','null')], 'ShareVault Publisher')
+
+
+    fax = fields.Char('Fax')
+    fax_opt_out = fields.Boolean('Fax Opt Out')
 
 
     @api.onchange('name')
