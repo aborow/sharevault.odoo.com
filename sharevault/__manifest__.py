@@ -24,7 +24,7 @@
             'data/auditlog_data.xml',
             'data/generic_data.xml',
             'views/sharevault_view.xml',
-            'views/res_partner_view.xml',
+            'views/partner_view.xml',
             'views/templates.xml',
             ],
     'installable': True,
