@@ -118,7 +118,6 @@
                                 <field name="data_source_details"/>
                                 <field name="domain"/>
                                 <field name="imported_phone"/>
-                                <field name="number_employees"/>
                             </group>
                             <group>
                                 <field name="marketing_flag"/>

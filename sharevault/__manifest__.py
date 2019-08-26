@@ -25,7 +25,6 @@
             'data/generic_data.xml',
             'views/sharevault_view.xml',
             'views/partner_view.xml',
-            'views/crm_view.xml',
             'views/templates.xml',
             ],
     'installable': True,
