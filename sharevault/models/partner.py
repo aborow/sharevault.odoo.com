@@ -8,72 +8,58 @@ _logger = logging.getLogger(__name__)
 class AccountStatus(models.Model):
     _name = 'res.partner.account_status'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class DataSource(models.Model):
     _name = 'res.partner.data_source'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class UpdateRequest(models.Model):
     _name = 'res.partner.data_update_request'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class LeadType(models.Model):
     _name = 'res.partner.lead_type'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class LifecycleStage(models.Model):
     _name = 'res.partner.lifecycle_stage'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class OrganizationType(models.Model):
     _name = 'res.partner.organization_type'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class Persona(models.Model):
     _name = 'res.partner.persona'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class Status(models.Model):
     _name = 'res.partner.status'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class Subindustry(models.Model):
     _name = 'res.partner.subindustry'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class ContactType(models.Model):
     _name = 'res.partner.contact_type'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class Matter(models.Model):
     _name = 'res.partner.matter'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class Tecnology(models.Model):
     _name = 'res.partner.tecnology'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
-class Confidential(models.Model):
+class Condifential(models.Model):
     _name = 'res.partner.confidential'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 class JobFunction(models.Model):
     _name = 'res.partner.job_function'
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
 
 
 
@@ -90,6 +76,8 @@ class Partner(models.Model):
     european_union = fields.Boolean('Are you a citizen or resident of the European Union (EU)?')
     data_source_details = fields.Char('Data Source Details')
     domain = fields.Char('Domain')
+    fax = fields.Char('Fax')
+    fax_opt_out = fields.Boolean('Fax Opt Out')
     first_name = fields.Char('First Name', computed='get_first_last_name', store=True)
     last_name = fields.Char('Last Name', computed='get_first_last_name', store=True)
     imported_phone = fields.Char('Imported Phone')
@@ -180,33 +168,3 @@ class Partner(models.Model):
                                     }
                         })
         return action
-
-
-    def _get_name(self):
-        """ Utility method to allow name_get to be overrided without re-browse the partner """
-        partner = self
-        name = partner.name or ''
-
-        if partner.first_name and partner.last_name:
-            name = partner.first_name + ' ' + partner.last_name
-
-        if partner.company_name or partner.parent_id:
-            if not name and partner.type in ['invoice', 'delivery', 'other']:
-                name = dict(self.fields_get(['type'])['type']['selection'])[partner.type]
-            if not partner.is_company:
-                name = "%s, %s" % (partner.commercial_company_name or partner.parent_id.name, name)
-        if self._context.get('show_address_only'):
-            name = partner._display_address(without_company=True)
-        if self._context.get('show_address'):
-            name = name + "\n" + partner._display_address(without_company=True)
-        name = name.replace('\n\n', '\n')
-        name = name.replace('\n\n', '\n')
-        if self._context.get('address_inline'):
-            name = name.replace('\n', ', ')
-        if self._context.get('show_email') and partner.email:
-            name = "%s <%s>" % (name, partner.email)
-        if self._context.get('html_format'):
-            name = name.replace('\n', '<br/>')
-        if self._context.get('show_vat') and partner.vat:
-            name = "%s ‒ %s" % (name, partner.vat)
-        return name

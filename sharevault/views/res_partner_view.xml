@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="view_partner_form">
+            <field name="name">ShareVault</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='vat']" position="after">
+                    <field name="sharevault_ids" invisible="1"/>
+                </xpath>
+
+
+                <xpath expr="//div[@name='button_box']/button[last()]" position="before">
+                    <button name="%(sharevault.action_sharevault_sharevault)d"
+                        type="action"
+                        context="{'search_default_partner_id': active_id, 'default_partner_id': active_id}"
+                        class="oe_stat_button" icon="fa-archive"
+                        attrs="{'invisible':[('sharevault_ids','=',[])]}">
+                        <field name="sharevault_ids_count" string="ShareVaults"
+                                widget="statinfo" />
+                    </button>
+
+                    <!-- show auditlog -->
+                    <button name="call_auditlog"
+                        type="object"
+                        class="oe_stat_button" icon="fa-bars"
+                        attrs="{'invisible':[('auditlog_ids_count','=',0)]}">
+                        <field name="auditlog_ids_count" string="Logs"
+                                widget="statinfo" />
+                    </button>
+                </xpath>
+
+                <xpath expr="//page[last()]" position="after">
+                    <page string="New fields">
+                        <group>
+                            <group>
+                                <field name="first_name"
+                                        attrs="{'invisible':[('company_type','!=','person')]}"
+                                        readonly="1" force_save="1"/>
+                                <field name="last_name"
+                                        attrs="{'invisible':[('company_type','!=','person')]}"
+                                        readonly="1" force_save="1"/>
+
+                                <field name="ae_targeted"/>
+                                <field name="annual_revenue"/>
+                                <field name="european_union"/>
+                                <field name="data_source_details"/>
+                                <field name="domain"/>
+                                <field name="fax"/>
+                                <field name="fax_opt_out"/>
+                                <field name="imported_phone"/>
+                            </group>
+                            <group>
+                                <field name="marketing_flag"/>
+                                <field name="marketing_note"/>
+                                <field name="salesforce_contact_id"/>
+                                <field name="salesforce_lead_id"/>
+                                <field name="shareVault_last_login_date"/>
+                                <field name="shareVault_subscription"/>
+                                <field name="shareVault_user"/>
+                                <field name="agree_data_collection"/>
+                            </group>
+                        </group>
+
+                        <group>
+                            <group>
+                                <field name="account_status_id"/>
+                                <field name="data_source_id"/>
+                                <field name="data_update_request_id"/>
+                                <field name="lead_type_id"/>
+                                <field name="lifecycle_stage_id"/>
+                                <field name="organization_type_id"/>
+                            </group>
+                            <group>
+                                <field name="persona_id"/>
+                                <field name="status_id"/>
+                                <field name="subindustry_id"/>
+                                <field name="contact_type_id"/>
+                                <field name="matter_id"/>
+                                <field name="tecnology_id"/>
+                                <field name="confidential_id"/>
+                            </group>
+                        </group>
+
+                        <group>
+                            <group>
+                                <field name="job_function"/>
+                                <field name="job_level"/>
+                                <field name="sharevault_activated_user"/>
+                                <field name="sharevault_admin"/>
+                            </group>
+                            <group>
+                                <field name="sharevault_domain"/>
+                                <field name="sharevault_email_subscription"/>
+                                <field name="shareVault_publisher"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>
