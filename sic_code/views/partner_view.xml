@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="sic_code_view_res_partner_filter" model="ir.ui.view">
+            <field name="name">SIC Code search</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_res_partner_filter"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='category_id']" position="after">
+                    <field name="sic_code_id"/>
+                </xpath>
+
+                <xpath expr="//filter[@name='group_country']" position="after">
+                    <filter string="SIC Code" name='group_by_sic_code'
+                            context="{'group_by': 'sic_code_id'}"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="sic_code_view_partner_form" model="ir.ui.view">
+            <field name="name">sic_code_view_partner_form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='ref']" position="after">
+                    <field name="sic_code_id"
+                        attrs="{'invisible':[('customer','=',False)]}"
+                        options="{'no_quick_create':True,'no_create_edit':True}"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
