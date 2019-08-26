@@ -97,9 +97,9 @@ class Partner(models.Model):
     marketing_note = fields.Char('Marketing note')
     salesforce_contact_id = fields.Char('Salesforce Contact ID')
     salesforce_lead_id = fields.Char('Salesforce Lead ID')
-    shareVault_last_login_date = fields.Date('ShareVault Last Login Date')
-    shareVault_subscription = fields.Boolean('ShareVault Subscription')
-    shareVault_user = fields.Integer('ShareVault User ID')
+    sharevault_last_login_date = fields.Date('ShareVault Last Login Date')
+    sharevault_subscription = fields.Boolean('ShareVault Subscription')
+    sharevault_user = fields.Integer('ShareVault User ID')
     agree_data_collection = fields.Boolean('Agree with data collection')
     number_employees = fields.Integer('Number of Employees')
 
@@ -133,7 +133,7 @@ class Partner(models.Model):
     sharevault_admin = fields.Selection([('null','null')], 'ShareVault Admin')
     sharevault_domain = fields.Selection([('null','null')], 'ShareVault Domain')
     sharevault_email_subscription = fields.Selection([('null','null')], 'ShareVault Email Subscription')
-    shareVault_publisher = fields.Selection([('null','null')], 'ShareVault Publisher')
+    sharevault_publisher = fields.Selection([('null','null')], 'ShareVault Publisher')
 
 
     fax = fields.Char('Fax')

@@ -87,11 +87,11 @@
                     <page string="ShareVault">
                         <group>
                             <group>
-                                <field name="shareVault_last_login_date"
+                                <field name="sharevault_last_login_date"
                                         string="Last Login"/>
-                                <field name="shareVault_subscription"
+                                <field name="sharevault_subscription"
                                         string="Subscription"/>
-                                <field name="shareVault_user"
+                                <field name="sharevault_user"
                                         string="User"/>
                                 <field name="sharevault_admin"
                                         string="Admin"/>
@@ -103,7 +103,7 @@
                                         string="Domain"/>
                                 <field name="sharevault_email_subscription"
                                         string="Email Subscription"/>
-                                <field name="shareVault_publisher"
+                                <field name="sharevault_publisher"
                                         string="Publisher"/>
                             </group>
                         </group>
