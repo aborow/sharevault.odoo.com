@@ -97,7 +97,7 @@ class Partner(models.Model):
     marketing_note = fields.Char('Marketing note')
     salesforce_contact_id = fields.Char('Salesforce Contact ID')
     salesforce_lead_id = fields.Char('Salesforce Lead ID')
-    sharevault_last_login_date = fields.Date('ShareVault Last Login Date')
+    #sharevault_last_login_date = fields.Date('ShareVault Last Login Date')
     sharevault_subscription = fields.Boolean('ShareVault Subscription')
     sharevault_user = fields.Integer('ShareVault User ID')
     agree_data_collection = fields.Boolean('Agree with data collection')

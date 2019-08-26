@@ -87,8 +87,10 @@
                     <page string="ShareVault">
                         <group>
                             <group>
+                                <!--
                                 <field name="sharevault_last_login_date"
                                         string="Last Login"/>
+                                -->
                                 <field name="sharevault_subscription"
                                         string="Subscription"/>
                                 <field name="sharevault_user"
