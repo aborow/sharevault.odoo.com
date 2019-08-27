@@ -81,16 +81,16 @@ class Partner(models.Model):
     sharevault_ids_count = fields.Integer('ShareVault count', compute='get_sharevault_count')
     auditlog_ids_count = fields.Integer('Auditlog count', compute='get_auditlog_count')
 
+
+    first_name = fields.Char('First Name', computed='get_first_last_name', store=True)
+    last_name = fields.Char('Last Name', computed='get_first_last_name', store=True)
+
     """
     ae_targeted = fields.Boolean('AE Targeted')
     annual_revenue = fields.Integer('Annual Revenue')
     european_union = fields.Boolean('Are you a citizen or resident of the European Union (EU)?')
     data_source_details = fields.Char('Data Source Details')
     domain = fields.Char('Domain')
-    """
-    first_name = fields.Char('First Name', computed='get_first_last_name', store=True)
-    last_name = fields.Char('Last Name', computed='get_first_last_name', store=True)
-    """
     imported_phone = fields.Char('Imported Phone')
     marketing_flag = fields.Boolean('Marketing Flag')
     marketing_note = fields.Char('Marketing note')
