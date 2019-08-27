@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from odoo import api, fields, models, tools, _
 
+"""
 class AccountStatus(models.Model):
     _name = 'res.partner.account_status'
     name = fields.Char('Name')
@@ -70,7 +71,7 @@ class JobFunction(models.Model):
     _name = 'res.partner.job_function'
     name = fields.Char('Name')
     active = fields.Boolean('Active')
-
+"""
 
 
 class Partner(models.Model):
