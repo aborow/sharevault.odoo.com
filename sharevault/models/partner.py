@@ -85,7 +85,7 @@ class Partner(models.Model):
     annual_revenue = fields.Integer('Annual Revenue')
     european_union = fields.Boolean('Are you a citizen or resident of the European Union (EU)?')
     data_source_details = fields.Char('Data Source Details')
-    domain = fields.Char('Domain')
+    #domain = fields.Char('Domain')
 
 
 
