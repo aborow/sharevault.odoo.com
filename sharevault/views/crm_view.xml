@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record model="ir.ui.view" id="crm_case_form_view_oppor">
+            <field name="name">Lead</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="before">
+                    <field name="original_source"/>
+                    <field name="recycled"/>
+                </xpath>
+
+                <xpath expr="//page[last()]" position="after">
+                    <page string="MQL" name="mql">
+                        <group>
+                            <group>
+                                <field name="mql_date"/>
+                                <field name="mql_recycle_counter"/>
+                                <field name="mql_recycle_store"/>
+                                <field name="mql_type"/>
+                                <field name="mql_type_date"/>
+                            </group>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>
