@@ -1,31 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-acess_sharevault_general,Sharevault: general,model_sharevault_sharevault,,1,0,0,0
-acess_sharevault_manager,Sharevault: manager,model_sharevault_sharevault,sharevault.sharevault_manager,1,1,1,1
-acess_account_status_general,Account Status,model_res_partner_account_status,,1,0,0,0
-acess_data_source_general,Data Source,model_res_partner_data_source,,1,0,0,0
-acess_data_update_request_general,Data Update Request,model_res_partner_data_update_request,,1,0,0,0
-acess_lead_type_general,Lead Type,model_res_partner_lead_type,,1,0,0,0
-acess_lifecycle_stage_general,Lifecycle stage,model_res_partner_lifecycle_stage,,1,0,0,0
-acess_organization_type_general,Organization Type,model_res_partner_organization_type,,1,0,0,0
-acess_persona_general,Persona,model_res_partner_persona,,1,0,0,0
-acess_status_general,Status,model_res_partner_status,,1,0,0,0
-acess_subindustry_general,Sub Industry,model_res_partner_subindustry,,1,0,0,0
-acess_contact_type_general,Contact Type,model_res_partner_contact_type,,1,0,0,0
-acess_matter_general,Subject Matter,model_res_partner_matter,,1,0,0,0
-acess_tecnology_general,Technology,model_res_partner_tecnology,,1,0,0,0
-acess_confidential_general,Confidential,model_res_partner_confidential,,1,0,0,0
-acess_job_function_general,Job Function,model_res_partner_job_function,,1,0,0,0
-acess_account_status_manager,Account Status,model_res_partner_account_status,sharevault.sharevault_manager,1,1,1,1
-acess_data_source_manager,Data Source,model_res_partner_data_source,sharevault.sharevault_manager,1,1,1,1
-acess_data_update_request_manager,Data Update Request,model_res_partner_data_update_request,sharevault.sharevault_manager,1,1,1,1
-acess_lead_type_manager,Lead Type,model_res_partner_lead_type,sharevault.sharevault_manager,1,1,1,1
-acess_lifecycle_stage_manager,Lifecycle stage,model_res_partner_lifecycle_stage,sharevault.sharevault_manager,1,1,1,1
-acess_organization_type_manager,Organization Type,model_res_partner_organization_type,sharevault.sharevault_manager,1,1,1,1
-acess_persona_manager,Persona,model_res_partner_persona,sharevault.sharevault_manager,1,1,1,1
-acess_status_manager,Status,model_res_partner_status,sharevault.sharevault_manager,1,1,1,1
-acess_subindustry_manager,Sub Industry,model_res_partner_subindustry,sharevault.sharevault_manager,1,1,1,1
-acess_contact_type_manager,Contact Type,model_res_partner_contact_type,sharevault.sharevault_manager,1,1,1,1
-acess_matter_manager,Subject Matter,model_res_partner_matter,sharevault.sharevault_manager,1,1,1,1
-acess_tecnology_manager,Technology,model_res_partner_tecnology,sharevault.sharevault_manager,1,1,1,1
-acess_confidential_manager,Confidential,model_res_partner_confidential,sharevault.sharevault_manager,1,1,1,1
-acess_job_function_manager,Job Function,model_res_partner_job_function,sharevault.sharevault_manager,1,1,1,1
+acess_sharevault_general,Sharevault: general,sharevault.model_sharevault_sharevault,,1,0,0,0
+acess_sharevault_manager,Sharevault: manager,sharevault.model_sharevault_sharevault,sharevault.sharevault_manager,1,1,1,1
