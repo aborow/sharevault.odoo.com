@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Data Update Request -->
+        <record id="data_update_request_1" model="res.partner.data_update_request">
+            <field name="name">#Update Email (UE)</field>
+        </record>
+        <record id="data_update_request_2" model="res.partner.data_update_request">
+            <field name="name">#Update Persona (UPersona)</field>
+        </record>
+        <record id="data_update_request_3" model="res.partner.data_update_request">
+            <field name="name">#Update Phone (UP)</field>
+        </record>
+        <record id="data_update_request_4" model="res.partner.data_update_request">
+            <field name="name">Can't Enrich</field>
+        </record>
+        <record id="data_update_request_5" model="res.partner.data_update_request">
+            <field name="name">Data Update Completed</field>
+        </record>
+        <record id="data_update_request_6" model="res.partner.data_update_request">
+            <field name="name">No Longer There</field>
+        </record>
+
+
+        <!-- Job Function -->
+        <record id="job_function_1" model="res.partner.job_function">
+            <field name="name">Consultant</field>
+        </record>
+        <record id="job_function_2" model="res.partner.job_function">
+            <field name="name">Corporate_Development</field>
+        </record>
+        <record id="job_function_3" model="res.partner.job_function">
+            <field name="name">Development</field>
+        </record>
+        <record id="job_function_4" model="res.partner.job_function">
+            <field name="name">Engineering</field>
+        </record>
+        <record id="job_function_5" model="res.partner.job_function">
+            <field name="name">Finance</field>
+        </record>
+        <record id="job_function_6" model="res.partner.job_function">
+            <field name="name">G&amp;A</field>
+        </record>
+        <record id="job_function_7" model="res.partner.job_function">
+            <field name="name">Gate_Keeper</field>
+        </record>
+        <record id="job_function_8" model="res.partner.job_function">
+            <field name="name">HR</field>
+        </record>
+        <record id="job_function_9" model="res.partner.job_function">
+            <field name="name">IT</field>
+        </record>
+        <record id="job_function_10" model="res.partner.job_function">
+            <field name="name">Legal</field>
+        </record>
+        <record id="job_function_11" model="res.partner.job_function">
+            <field name="name">Marketing</field>
+        </record>
+        <record id="job_function_12" model="res.partner.job_function">
+            <field name="name">Operations</field>
+        </record>
+        <record id="job_function_13" model="res.partner.job_function">
+            <field name="name">Other</field>
+        </record>
+        <record id="job_function_14" model="res.partner.job_function">
+            <field name="name">Regulatory</field>
+        </record>
+        <record id="job_function_15" model="res.partner.job_function">
+            <field name="name">Research</field>
+        </record>
+        <record id="job_function_16" model="res.partner.job_function">
+            <field name="name">Sales</field>
+        </record>
+
+
+        <!-- Lead Type -->
+        <record id="lead_type_1" model="res.partner.lead_type">
+            <field name="name">CGL</field>
+        </record>
+        <record id="lead_type_2" model="res.partner.lead_type">
+            <field name="name">MQL</field>
+        </record>
+        <record id="lead_type_3" model="res.partner.lead_type">
+            <field name="name">OTHER</field>
+        </record>
+        <record id="lead_type_4" model="res.partner.lead_type">
+            <field name="name">SGL</field>
+        </record>
+        <record id="lead_type_5" model="res.partner.lead_type">
+            <field name="name">Suspect</field>
+        </record>
+
+
+        <!-- Lifecycle Stage -->
+        <record id="lifecycle_stage_1" model="res.partner.lifecycle_stage">
+            <field name="name">customer</field>
+        </record>
+        <record id="lifecycle_stage_2" model="res.partner.lifecycle_stage">
+            <field name="name">lead</field>
+        </record>
+        <record id="lifecycle_stage_3" model="res.partner.lifecycle_stage">
+            <field name="name">marketingqualifiedlead</field>
+        </record>
+        <record id="lifecycle_stage_4" model="res.partner.lifecycle_stage">
+            <field name="name">opportunity</field>
+        </record>
+        <record id="lifecycle_stage_5" model="res.partner.lifecycle_stage">
+            <field name="name">other</field>
+        </record>
+        <record id="lifecycle_stage_6" model="res.partner.lifecycle_stage">
+            <field name="name">salesqualifiedlead</field>
+        </record>
+        <record id="lifecycle_stage_7" model="res.partner.lifecycle_stage">
+            <field name="name">subscriber</field>
+        </record>
+
+
+        <!-- Organization Type -->
+        <record id="organization_type_1" model="res.partner.organization_type">
+            <field name="name">Biopharma</field>
+        </record>
+        <record id="organization_type_2" model="res.partner.organization_type">
+            <field name="name">Commercial Banking</field>
+        </record>
+        <record id="organization_type_3" model="res.partner.organization_type">
+            <field name="name">Law Firms</field>
+        </record>
+        <record id="organization_type_4" model="res.partner.organization_type">
+            <field name="name">Investment Banking</field>
+        </record>
+        <record id="organization_type_5" model="res.partner.organization_type">
+            <field name="name">Private Equity / Venture Capital</field>
+        </record>
+
+
+        <!-- Status -->
+        <record id="status_1" model="res.partner.status">
+            <field name="name">Active</field>
+        </record>
+        <record id="status_2" model="res.partner.status">
+            <field name="name">Attempting to Contact</field>
+        </record>
+        <record id="status_3" model="res.partner.status">
+            <field name="name">Can't Enrich</field>
+        </record>
+        <record id="status_4" model="res.partner.status">
+            <field name="name">Contacted</field>
+        </record>
+        <record id="status_5" model="res.partner.status">
+            <field name="name">Customer</field>
+        </record>
+        <record id="status_6" model="res.partner.status">
+            <field name="name">Disqualified</field>
+        </record>
+        <record id="status_7" model="res.partner.status">
+            <field name="name">MQL</field>
+        </record>
+        <record id="status_8" model="res.partner.status">
+            <field name="name">No Longer There</field>
+        </record>
+        <record id="status_9" model="res.partner.status">
+            <field name="name">Nurture</field>
+        </record>
+        <record id="status_10" model="res.partner.status">
+            <field name="name">Open</field>
+        </record>
+        <record id="status_11" model="res.partner.status">
+            <field name="name">Qualified</field>
+        </record>
+        <record id="status_12" model="res.partner.status">
+            <field name="name">Recycle</field>
+        </record>
+        <record id="status_13" model="res.partner.status">
+            <field name="name">Recycle (Marketing)</field>
+        </record>
+        <record id="status_14" model="res.partner.status">
+            <field name="name">SQL</field>
+        </record>
+        <record id="status_15" model="res.partner.status">
+            <field name="name">Sales Nurture</field>
+        </record>
+        <record id="status_16" model="res.partner.status">
+            <field name="name">Support</field>
+        </record>
+        <record id="status_17" model="res.partner.status">
+            <field name="name">Unqualified</field>
+        </record>
+
+
+        <!-- Matter -->
+        <record id="matter_1" model="res.partner.matter">
+            <field name="name">Biopharma Thought Leadership</field>
+        </record>
+        <record id="matter_2" model="res.partner.matter">
+            <field name="name">Regulatory Affairs Thought Leadership</field>
+        </record>
+        <record id="matter_3" model="res.partner.matter">
+            <field name="name">M&amp;A Dealmaking Content</field>
+        </record>
+        <record id="matter_4" model="res.partner.matter">
+            <field name="name">Fundraising Content</field>
+        </record>
+
+
+        <!-- Matter -->
+        <record id="tecnology_1" model="res.partner.tecnology">
+            <field name="name">Box</field>
+        </record>
+        <record id="tecnology_2" model="res.partner.tecnology">
+            <field name="name">DropBox</field>
+        </record>
+        <record id="tecnology_3" model="res.partner.tecnology">
+            <field name="name">Email</field>
+        </record>
+        <record id="tecnology_4" model="res.partner.tecnology">
+            <field name="name">Firmex</field>
+        </record>
+
+
+        <!-- Confidential -->
+        <record id="tecnology_1" model="res.partner.confidential">
+            <field name="name">1 Month</field>
+        </record>
+        <record id="tecnology_2" model="res.partner.confidential">
+            <field name="name">3 Months</field>
+        </record>
+        <record id="tecnology_3" model="res.partner.confidential">
+            <field name="name">6 Months</field>
+        </record>
+        <record id="tecnology_4" model="res.partner.confidential">
+            <field name="name">1 Year</field>
+        </record>
+        <record id="tecnology_5" model="res.partner.confidential">
+            <field name="name">We are currently sharing confidential documents with third parties.</field>
+        </record>
+        <record id="tecnology_6" model="res.partner.confidential">
+            <field name="name">We currently use ShareVault.</field>
+        </record>
+        <record id="tecnology_7" model="res.partner.confidential">
+            <field name="name">We don't use ShareVault, but we are currently sharing confidential documentation with third parties.</field>
+        </record>
+        <record id="tecnology_8" model="res.partner.confidential">
+            <field name="name">We will never share confidential documentation with third parties.</field>
+        </record>
+        <record id="tecnology_9" model="res.partner.confidential">
+            <field name="name">N/A</field>
+        </record>
+
+
+    </data>
+</odoo>
