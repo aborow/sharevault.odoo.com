@@ -16,14 +16,19 @@
                 'auditlog',
                 'helpdesk',
                 'sale_management',
-                'account'
+                'account',
+                #'sic_code'
                 ],
     'data': [
             'security/groups_data.xml',
             'security/ir.model.access.csv',
             'data/auditlog_data.xml',
+            'data/generic_data.xml',
             'views/sharevault_view.xml',
-            'views/res_partner_view.xml',
+
+            #'views/partner_view.xml',
+            #'views/crm_view.xml',
+
             'views/templates.xml',
             ],
     'installable': True,
