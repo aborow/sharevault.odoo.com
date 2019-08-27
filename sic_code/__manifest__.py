@@ -17,7 +17,7 @@ Data taken from https://www.naics.com
     'depends': ['contacts'],
 	'data': [
             'security/ir.model.access.csv',
-            'data/sic_code_data.xml',
+            #'data/sic_code_data.xml',
             'views/partner_view.xml',
             'views/sic_code_view.xml',
             ],
