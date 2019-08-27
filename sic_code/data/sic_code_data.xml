@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="sic_code_division_A" model="sic_code.division">
+            <field name="name">A</field>
+            <field name="description">Agriculture, Forestry, And Fishing</field>
+        </record>
+        <record id="sic_code_division_B" model="sic_code.division">
+            <field name="name">B</field>
+            <field name="description">Mining</field>
+        </record>
+        <record id="sic_code_division_C" model="sic_code.division">
+            <field name="name">C</field>
+            <field name="description">Construction</field>
+        </record>
+        <record id="sic_code_division_D" model="sic_code.division">
+            <field name="name">D</field>
+            <field name="description">Manufacturing</field>
+        </record>
+        <record id="sic_code_division_E" model="sic_code.division">
+            <field name="name">E</field>
+            <field name="description">Transportation, Communications, Electric, Gas, And Sanitary Services</field>
+        </record>
+        <record id="sic_code_division_F" model="sic_code.division">
+            <field name="name">F</field>
+            <field name="description">Wholesale Trade</field>
+        </record>
+        <record id="sic_code_division_G" model="sic_code.division">
+            <field name="name">G</field>
+            <field name="description">Retail Trade</field>
+        </record>
+        <record id="sic_code_division_H" model="sic_code.division">
+            <field name="name">H</field>
+            <field name="description">Finance, Insurance, And Real Estate</field>
+        </record>
+        <record id="sic_code_division_I" model="sic_code.division">
+            <field name="name">I</field>
+            <field name="description">Services</field>
+        </record>
+        <record id="sic_code_division_J" model="sic_code.division">
+            <field name="name">J</field>
+            <field name="description">Public Administration</field>
+        </record>
+
+
+        <record id="sic_code_group_01" model="sic_code.group">
+            <field name="name">01</field>
+            <field name="description">Agricultural Production Crops</field>
+        </record>
+        <record id="sic_code_group_02" model="sic_code.group">
+            <field name="name">02</field>
+            <field name="description">Agriculture production livestock and animal specialties</field>
+        </record>
+        <record id="sic_code_group_07" model="sic_code.group">
+            <field name="name">07</field>
+            <field name="description">Agricultural Services</field>
+        </record>
+        <record id="sic_code_group_08" model="sic_code.group">
+            <field name="name">08</field>
+            <field name="description">Forestry</field>
+        </record>
+        <record id="sic_code_group_09" model="sic_code.group">
+            <field name="name">09</field>
+            <field name="description">Fishing, hunting, and trapping</field>
+        </record>
+        <record id="sic_code_group_10" model="sic_code.group">
+            <field name="name">10</field>
+            <field name="description">Mining</field>
+        </record>
+        <record id="sic_code_group_12" model="sic_code.group">
+            <field name="name">12</field>
+            <field name="description">Coal Mining</field>
+        </record>
+        <record id="sic_code_group_13" model="sic_code.group">
+            <field name="name">13</field>
+            <field name="description">Oil and Gas Extraction</field>
+        </record>
+        <record id="sic_code_group_14" model="sic_code.group">
+            <field name="name">14</field>
+            <field name="description">Mining and Quarrying of Nonmetallic Minerals, Except Fuels</field>
+        </record>
+        <record id="sic_code_group_15" model="sic_code.group">
+            <field name="name">15</field>
+            <field name="description">Building Construction General Contractors And Operative Builders</field>
+        </record>
+        <record id="sic_code_group_16" model="sic_code.group">
+            <field name="name">16</field>
+            <field name="description">Heavy Construction Other Than Building Construction Contractors</field>
+        </record>
+        <record id="sic_code_group_17" model="sic_code.group">
+            <field name="name">17</field>
+            <field name="description">Construction - Special Trade Contractors</field>
+        </record>
+        <record id="sic_code_group_20" model="sic_code.group">
+            <field name="name">20</field>
+            <field name="description">Food and Kindred Products</field>
+        </record>
+        <record id="sic_code_group_21" model="sic_code.group">
+            <field name="name">21</field>
+            <field name="description">Tobacco Products</field>
+        </record>
+        <record id="sic_code_group_22" model="sic_code.group">
+            <field name="name">22</field>
+            <field name="description">Textile Mill Products</field>
+        </record>
+        <record id="sic_code_group_23" model="sic_code.group">
+            <field name="name">23</field>
+            <field name="description">Apparel, Finished Prdcts from Fabrics &amp; Similar Materials</field>
+        </record>
+        <record id="sic_code_group_24" model="sic_code.group">
+            <field name="name">24</field>
+            <field name="description">Lumber and Wood Products, Except Furniture</field>
+        </record>
+        <record id="sic_code_group_25" model="sic_code.group">
+            <field name="name">25</field>
+            <field name="description">Furniture and Fixtures</field>
+        </record>
+        <record id="sic_code_group_26" model="sic_code.group">
+            <field name="name">26</field>
+            <field name="description">Paper and Allied Products</field>
+        </record>
+        <record id="sic_code_group_27" model="sic_code.group">
+            <field name="name">27</field>
+            <field name="description">Printing, Publishing and Allied Industries</field>
+        </record>
+        <record id="sic_code_group_28" model="sic_code.group">
+            <field name="name">28</field>
+            <field name="description">Chemicals and Allied Products</field>
+        </record>
+        <record id="sic_code_group_29" model="sic_code.group">
+            <field name="name">29</field>
+            <field name="description">Petroleum Refining and Related Industries</field>
+        </record>
+        <record id="sic_code_group_30" model="sic_code.group">
+            <field name="name">30</field>
+            <field name="description">	Rubber and Miscellaneous Plastic Products</field>
+        </record>
+        <record id="sic_code_group_31" model="sic_code.group">
+            <field name="name">31</field>
+            <field name="description">Leather and Leather Products</field>
+        </record>
+        <record id="sic_code_group_32" model="sic_code.group">
+            <field name="name">32</field>
+            <field name="description">Stone, Clay, Glass, and Concrete Products</field>
+        </record>
+        <record id="sic_code_group_33" model="sic_code.group">
+            <field name="name">33</field>
+            <field name="description">Primary Metal Industries</field>
+        </record>
+        <record id="sic_code_group_34" model="sic_code.group">
+            <field name="name">34</field>
+            <field name="description">Fabricated Metal Products, Except Machinery And Transportation Equipment</field>
+        </record>
+        <record id="sic_code_group_35" model="sic_code.group">
+            <field name="name">35</field>
+            <field name="description">Industrial And Commercial Machinery And Computer Equipment</field>
+        </record>
+        <record id="sic_code_group_36" model="sic_code.group">
+            <field name="name">36</field>
+            <field name="description">Electronic And Other Electrical Equipment And Components, Except Computer Equipment</field>
+        </record>
+        <record id="sic_code_group_37" model="sic_code.group">
+            <field name="name">37</field>
+            <field name="description">Transportation Equipment</field>
+        </record>
+        <record id="sic_code_group_38" model="sic_code.group">
+            <field name="name">38</field>
+            <field name="description">Measuring, Analyzing, And Controlling Instruments; Photographic, Medical And Optical Goods; Watches And Clocks</field>
+        </record>
+        <record id="sic_code_group_39" model="sic_code.group">
+            <field name="name">39</field>
+            <field name="description">Miscellaneous Manufacturing Industries</field>
+        </record>
+        <record id="sic_code_group_40" model="sic_code.group">
+            <field name="name">40</field>
+            <field name="description">Railroad Transportation</field>
+        </record>
+        <record id="sic_code_group_41" model="sic_code.group">
+            <field name="name">41</field>
+            <field name="description">Local And Suburban Transit And Interurban Highway Passenger Transportation</field>
+        </record>
+        <record id="sic_code_group_42" model="sic_code.group">
+            <field name="name">42</field>
+            <field name="description">Motor Freight Transportation</field>
+        </record>
+        <record id="sic_code_group_43" model="sic_code.group">
+            <field name="name">43</field>
+            <field name="description">United States Postal Service</field>
+        </record>
+        <record id="sic_code_group_44" model="sic_code.group">
+            <field name="name">44</field>
+            <field name="description">Water Transportation</field>
+        </record>
+        <record id="sic_code_group_45" model="sic_code.group">
+            <field name="name">45</field>
+            <field name="description">Transportation by Air</field>
+        </record>
+        <record id="sic_code_group_46" model="sic_code.group">
+            <field name="name">46</field>
+            <field name="description">Pipelines, Except Natural Gas</field>
+        </record>
+        <record id="sic_code_group_47" model="sic_code.group">
+            <field name="name">47</field>
+            <field name="description">Transportation Services</field>
+        </record>
+        <record id="sic_code_group_48" model="sic_code.group">
+            <field name="name">48</field>
+            <field name="description">Communications</field>
+        </record>
+        <record id="sic_code_group_49" model="sic_code.group">
+            <field name="name">49</field>
+            <field name="description">Electric, Gas and Sanitary Services</field>
+        </record>
+        <record id="sic_code_group_50" model="sic_code.group">
+            <field name="name">50</field>
+            <field name="description">Wholesale Trade - Durable Goods</field>
+        </record>
+        <record id="sic_code_group_51" model="sic_code.group">
+            <field name="name">51</field>
+            <field name="description">Wholesale Trade - Nondurable Goods</field>
+        </record>
+        <record id="sic_code_group_52" model="sic_code.group">
+            <field name="name">52</field>
+            <field name="description">Building Materials, Hardware, Garden Supply, And Mobile Home Dealers</field>
+        </record>
+        <record id="sic_code_group_53" model="sic_code.group">
+            <field name="name">53</field>
+            <field name="description">General Merchandise Stores</field>
+        </record>
+        <record id="sic_code_group_54" model="sic_code.group">
+            <field name="name">54</field>
+            <field name="description">Food Stores</field>
+        </record>
+        <record id="sic_code_group_55" model="sic_code.group">
+            <field name="name">55</field>
+            <field name="description">Automotive Dealers and Gasoline Service Stations</field>
+        </record>
+        <record id="sic_code_group_56" model="sic_code.group">
+            <field name="name">56</field>
+            <field name="description">Apparel and Accessory Stores</field>
+        </record>
+        <record id="sic_code_group_57" model="sic_code.group">
+            <field name="name">57</field>
+            <field name="description">Home Furniture, Furnishings and Equipment Stores</field>
+        </record>
+        <record id="sic_code_group_58" model="sic_code.group">
+            <field name="name">58</field>
+            <field name="description">Eating and Drinking Places</field>
+        </record>
+        <record id="sic_code_group_59" model="sic_code.group">
+            <field name="name">59</field>
+            <field name="description">Miscellaneous Retail</field>
+        </record>
+        <record id="sic_code_group_60" model="sic_code.group">
+            <field name="name">60</field>
+            <field name="description">Depository Institutions</field>
+        </record>
+        <record id="sic_code_group_61" model="sic_code.group">
+            <field name="name">61</field>
+            <field name="description">Nondepository Credit Institutions</field>
+        </record>
+        <record id="sic_code_group_62" model="sic_code.group">
+            <field name="name">62</field>
+            <field name="description">Security And Commodity Brokers, Dealers, Exchanges, And Services</field>
+        </record>
+        <record id="sic_code_group_63" model="sic_code.group">
+            <field name="name">63</field>
+            <field name="description">Insurance Carriers</field>
+        </record>
+        <record id="sic_code_group_64" model="sic_code.group">
+            <field name="name">64</field>
+            <field name="description">Insurance Agents, Brokers and Service</field>
+        </record>
+        <record id="sic_code_group_65" model="sic_code.group">
+            <field name="name">65</field>
+            <field name="description">Real Estate</field>
+        </record>
+        <record id="sic_code_group_67" model="sic_code.group">
+            <field name="name">67</field>
+            <field name="description">Holding and Other Investment Offices</field>
+        </record>
+        <record id="sic_code_group_70" model="sic_code.group">
+            <field name="name">70</field>
+            <field name="description">Hotels, Rooming Houses, Camps, And Other Lodging Places</field>
+        </record>
+        <record id="sic_code_group_72" model="sic_code.group">
+            <field name="name">72</field>
+            <field name="description">Personal Services</field>
+        </record>
+        <record id="sic_code_group_73" model="sic_code.group">
+            <field name="name">73</field>
+            <field name="description">Business Services</field>
+        </record>
+        <record id="sic_code_group_75" model="sic_code.group">
+            <field name="name">75</field>
+            <field name="description">Automotive Repair, Services and Parking</field>
+        </record>
+        <record id="sic_code_group_76" model="sic_code.group">
+            <field name="name">76</field>
+            <field name="description">Miscellaneous Repair Services</field>
+        </record>
+        <record id="sic_code_group_78" model="sic_code.group">
+            <field name="name">78</field>
+            <field name="description">Motion Pictures</field>
+        </record>
+        <record id="sic_code_group_79" model="sic_code.group">
+            <field name="name">79</field>
+            <field name="description">Amusement and Recreation Services</field>
+        </record>
+        <record id="sic_code_group_80" model="sic_code.group">
+            <field name="name">80</field>
+            <field name="description">	Health Services</field>
+        </record>
+        <record id="sic_code_group_81" model="sic_code.group">
+            <field name="name">81</field>
+            <field name="description">Legal Services</field>
+        </record>
+        <record id="sic_code_group_82" model="sic_code.group">
+            <field name="name">82</field>
+            <field name="description">Educational Services</field>
+        </record>
+        <record id="sic_code_group_83" model="sic_code.group">
+            <field name="name">83</field>
+            <field name="description">Social Services</field>
+        </record>
+        <record id="sic_code_group_84" model="sic_code.group">
+            <field name="name">84</field>
+            <field name="description">Museums, Art Galleries, And Botanical And Zoological Gardens</field>
+        </record>
+        <record id="sic_code_group_86" model="sic_code.group">
+            <field name="name">86</field>
+            <field name="description">Membership Organizations</field>
+        </record>
+        <record id="sic_code_group_87" model="sic_code.group">
+            <field name="name">87</field>
+            <field name="description">Engineering, Accounting, Research, Management, And Related Services</field>
+        </record>
+        <record id="sic_code_group_89" model="sic_code.group">
+            <field name="name">89</field>
+            <field name="description">Services, Not Elsewhere Classified</field>
+        </record>
+        <record id="sic_code_group_91" model="sic_code.group">
+            <field name="name">91</field>
+            <field name="description">Executive, Legislative &amp; General Government, Except Finance</field>
+        </record>
+        <record id="sic_code_group_92" model="sic_code.group">
+            <field name="name">92</field>
+            <field name="description">Justice, Public Order and Safety</field>
+        </record>
+        <record id="sic_code_group_93" model="sic_code.group">
+            <field name="name">93</field>
+            <field name="description">Public Finance, Taxation and Monetary Policy</field>
+        </record>
+        <record id="sic_code_group_94" model="sic_code.group">
+            <field name="name">94</field>
+            <field name="description">Administration of Human Resource Programs</field>
+        </record>
+        <record id="sic_code_group_95" model="sic_code.group">
+            <field name="name">95</field>
+            <field name="description">Administration Of Environmental Quality And Housing Programs</field>
+        </record>
+        <record id="sic_code_group_96" model="sic_code.group">
+            <field name="name">96</field>
+            <field name="description">Administration of Economic Programs</field>
+        </record>
+        <record id="sic_code_group_97" model="sic_code.group">
+            <field name="name">97</field>
+            <field name="description"National Security and International Affairs</field>
+        </record>
+        <record id="sic_code_group_99" model="sic_code.group">
+            <field name="name">99</field>
+            <field name="description">Nonclassifiable Establishments</field>
+        </record>
+
+
+<!--
+<field name="group_id" ref="sic_code_group_99"/>
+-->
+
+<!---
+		<record id="sic_code_code_0100" model="sic_code.code">
+            <field name="name">0100</field>
+            <field name="description">Agricultural Production-Crops</field>
+        </record>
+		<record id="sic_code_code_0200" model="sic_code.code">
+            <field name="name">0200</field>
+            <field name="description">Agricultural Prod-Livestock &amp; Animal Specialties</field>
+        </record>
+		<record id="sic_code_code_0700" model="sic_code.code">
+            <field name="name">0700</field><field name="description">Agricultural Services</field>
+        </record>
+		<record id="sic_code_code_0800" model="sic_code.code">
+            <field name="name">0800</field><field name="description">Forestry</field>
+        </record>
+		<record id="sic_code_code_0900" model="sic_code.code">
+            <field name="name">0900</field>
+            <field name="description">Fishing, Hunting and Trapping</field>
+        </record>
+		<record id="sic_code_code_1000" model="sic_code.code">
+            <field name="name">1000</field>
+            <field name="description">Metal Mining</field>
+        </record>
+		<record id="sic_code_code_1040" model="sic_code.code">
+            <field name="name">1040</field>
+            <field name="description">Gold and Silver Ores</field>
+        </record>
+		<record id="sic_code_code_1090" model="sic_code.code">
+            <field name="name">1090</field>
+            <field name="description">Miscellaneous Metal Ores</field>
+        </record>
+		<record id="sic_code_code_1220" model="sic_code.code">
+            <field name="name">1220</field>
+            <field name="description">Bituminous Coal &amp; Lignite Mining</field>
+        </record>
+		<record id="sic_code_code_1221" model="sic_code.code">
+            <field name="name">1221</field>
+            <field name="description">Bituminous Coal &amp; Lignite Surface Mining</field>
+        </record>
+		<record id="sic_code_code_1311" model="sic_code.code">
+            <field name="name">1311</field>
+            <field name="description">Crude Petroleum &amp; Natural Gas</field>
+        </record>
+		<record id="sic_code_code_1381" model="sic_code.code">
+            <field name="name">1381</field>
+            <field name="description">Drilling Oil &amp; Gas Wells</field>
+        </record>
+		<record id="sic_code_code_1382" model="sic_code.code">
+            <field name="name">1382</field>
+            <field name="description">Oil &amp; Gas Field Exploration Services</field>
+        </record>
+		<record id="sic_code_code_1389" model="sic_code.code">
+            <field name="name">1389</field>
+            <field name="description">Oil &amp; Gas Field Services, NEC</field>
+        </record>
+		<record id="sic_code_code_1400" model="sic_code.code">
+            <field name="name">1400</field>
+            <field name="description">Mining &amp; Quarrying of Nonmetallic Minerals (No Fuels)</field>
+        </record>
+		<record id="sic_code_code_1520" model="sic_code.code">
+            <field name="name">1520</field>
+            <field name="description">General Bldg Contractors - Residential Bldgs</field>
+        </record>
+		<record id="sic_code_code_1531" model="sic_code.code">
+            <field name="name">1531</field>
+            <field name="description">Operative Builders</field>
+        </record>
+		<record id="sic_code_code_1540" model="sic_code.code">
+            <field name="name">1540</field>
+            <field name="description">General Bldg Contractors - Nonresidential Bldgs</field>
+        </record>
+		<record id="sic_code_code_1600" model="sic_code.code">
+            <field name="name">1600</field>
+            <field name="description">Heavy Construction Other Than Bldg Const - Contractors</field>
+        </record>
+		<record id="sic_code_code_1623" model="sic_code.code">
+            <field name="name">1623</field>
+            <field name="description">Water, Sewer, Pipeline, Comm &amp; Power Line Construction</field>
+        </record>
+		<record id="sic_code_code_1700" model="sic_code.code">
+            <field name="name">1700</field>
+            <field name="description">Construction - Special Trade Contractors</field>
+        </record>
+		<record id="sic_code_code_1731" model="sic_code.code">
+            <field name="name">1731</field>
+            <field name="description">Electrical Work</field>
+        </record>
+		<record id="sic_code_code_2000" model="sic_code.code">
+            <field name="name">2000</field>
+            <field name="description">Food and Kindred Products</field>
+        </record>
+		<record id="sic_code_code_2011" model="sic_code.code">
+            <field name="name">2011</field>
+            <field name="description">Meat Packing Plants</field>
+        </record>
+		<record id="sic_code_code_2013" model="sic_code.code">
+            <field name="name">2013</field>
+            <field name="description">Sausages &amp; Other Prepared Meat Products</field>
+        </record>
+		<record id="sic_code_code_2015" model="sic_code.code">
+            <field name="name">2015</field>
+            <field name="description">Poultry Slaughtering and Processing</field>
+        </record>
+		<record id="sic_code_code_2020" model="sic_code.code">
+            <field name="name">2020</field>
+            <field name="description">Dairy Products</field>
+        </record>
+		<record id="sic_code_code_2024" model="sic_code.code">
+            <field name="name">2024</field>
+            <field name="description">Ice Cream &amp; Frozen Desserts</field>
+        </record>
+		<record id="sic_code_code_2030" model="sic_code.code">
+            <field name="name">2030</field>
+            <field name="description">Canned, Frozen &amp; Preserved Fruit, Veg &amp; Food Specialties</field>
+        </record>
+		<record id="sic_code_code_2033" model="sic_code.code">
+            <field name="name">2033</field>
+            <field name="description">Canned, Fruits, Veg, Preserves, Jams &amp; Jellies</field>
+        </record>
+		<record id="sic_code_code_2040" model="sic_code.code">
+            <field name="name">2040</field>
+            <field name="description">Grain Mill Products</field>
+        </record>
+		<record id="sic_code_code_2050" model="sic_code.code">
+            <field name="name">2050</field>
+            <field name="description">Bakery Products</field>
+        </record>
+		<record id="sic_code_code_2052" model="sic_code.code">
+            <field name="name">2052</field>
+            <field name="description">Cookies &amp; Crackers</field>
+        </record>
+		<record id="sic_code_code_2060" model="sic_code.code">
+            <field name="name">2060</field>
+            <field name="description">Sugar &amp; Confectionery Products</field>
+        </record>
+		<record id="sic_code_code_2070" model="sic_code.code">
+            <field name="name">2070</field>
+            <field name="description">Fats &amp; Oils</field>
+        </record>
+		<record id="sic_code_code_2080" model="sic_code.code">
+            <field name="name">2080</field>
+            <field name="description">Beverages</field>
+        </record>
+		<record id="sic_code_code_2082" model="sic_code.code">
+            <field name="name">2082</field>
+            <field name="description">Malt Beverages</field>
+        </record>
+		<record id="sic_code_code_2086" model="sic_code.code">
+            <field name="name">2086</field>
+            <field name="description">Bottled &amp; Canned Soft Drinks &amp; Carbonated Waters</field>
+        </record>
+		<record id="sic_code_code_2090" model="sic_code.code">
+            <field name="name">2090</field>
+            <field name="description">Miscellaneous Food Preparations &amp; Kindred Products</field>
+        </record>
+		<record id="sic_code_code_2092" model="sic_code.code">
+            <field name="name">2092</field>
+            <field name="description">Prepared Fresh or Frozen Fish &amp; Seafood</field>
+        </record>
+		<record id="sic_code_code_2100" model="sic_code.code">
+            <field name="name">2100</field>
+            <field name="description">Tobacco Products</field>
+        </record>
+		<record id="sic_code_code_2111" model="sic_code.code">
+            <field name="name">2111</field>
+            <field name="description">Cigarettes</field>
+        </record>
+		<record id="sic_code_code_2200" model="sic_code.code">
+            <field name="name">2200</field>
+            <field name="description">Textile Mill Products</field>
+        </record>
+		<record id="sic_code_code_2211" model="sic_code.code">
+            <field name="name">2211</field>
+            <field name="description">Broadwoven Fabric Mills, Cotton</field>
+        </record>
+		<record id="sic_code_code_2221" model="sic_code.code">
+            <field name="name">2221</field>
+            <field name="description">Broadwoven Fabric Mills, Man Made Fiber &amp; Silk</field>
+        </record>
+		<record id="sic_code_code_2250" model="sic_code.code">
+            <field name="name">2250</field>
+            <field name="description">Knitting Mills</field>
+        </record>
+		<record id="sic_code_code_2253" model="sic_code.code">
+            <field name="name">2253</field>
+            <field name="description">Knit Outerwear Mills</field>
+        </record>
+		<record id="sic_code_code_2273" model="sic_code.code">
+            <field name="name">2273</field>
+            <field name="description">Carpets &amp; Rugs</field>
+        </record>
+		<record id="sic_code_code_2300" model="sic_code.code">
+            <field name="name">2300</field>
+            <field name="description">Apparel &amp; Other Finished Prods of Fabrics &amp; Similar Matl</field>
+        </record>
+		<record id="sic_code_code_2320" model="sic_code.code">
+            <field name="name">2320</field>
+            <field name="description">Men's &amp; Boys' Furnishings, Work Clothing, &amp; Allied Garments</field>
+        </record>
+		<record id="sic_code_code_2330" model="sic_code.code">
+            <field name="name">2330</field>
+            <field name="description">Women's, Misses', and Juniors Outerwear</field>
+        </record>
+		<record id="sic_code_code_2340" model="sic_code.code">
+            <field name="name">2340</field>
+            <field name="description">Women's, Misses', Children's &amp; Infant's Undergarments</field>
+        </record>
+		<record id="sic_code_code_2390" model="sic_code.code">
+            <field name="name">2390</field>
+            <field name="description">Miscellaneous Fabricated Textile Products</field>
+        </record>
+		<record id="sic_code_code_2400" model="sic_code.code">
+            <field name="name">2400</field>
+            <field name="description">Lumber &amp; Wood Products (No Furniture)</field>
+        </record>
+		<record id="sic_code_code_2421" model="sic_code.code">
+            <field name="name">2421</field>
+            <field name="description">Sawmills &amp; Planing Mills, General</field>
+        </record>
+		<record id="sic_code_code_2430" model="sic_code.code">
+            <field name="name">2430</field>
+            <field name="description">Millwood, Veneer, Plywood, &amp; Structural Wood Members</field>
+        </record>
+		<record id="sic_code_code_2451" model="sic_code.code">
+            <field name="name">2451</field>
+            <field name="description">Mobile Homes</field>
+        </record>
+		<record id="sic_code_code_2452" model="sic_code.code">
+            <field name="name">2452</field>
+            <field name="description">Prefabricated Wood Bldgs &amp; Components</field>
+        </record>
+		<record id="sic_code_code_2510" model="sic_code.code">
+            <field name="name">2510</field>
+            <field name="description">Household Furniture</field>
+        </record>
+		<record id="sic_code_code_2511" model="sic_code.code">
+            <field name="name">2511</field>
+            <field name="description">Wood Household Furniture, (No Upholstered)</field>
+        </record>
+		<record id="sic_code_code_2520" model="sic_code.code">
+            <field name="name">2520</field>
+            <field name="description">Office Furniture</field>
+        </record>
+		<record id="sic_code_code_2522" model="sic_code.code">
+            <field name="name">2522</field>
+            <field name="description">Office Furniture (No Wood)</field>
+        </record>
+		<record id="sic_code_code_2531" model="sic_code.code">
+            <field name="name">2531</field>
+            <field name="description">Public Bldg &amp; Related Furniture</field>
+        </record>
+		<record id="sic_code_code_2540" model="sic_code.code">
+            <field name="name">2540</field>
+            <field name="description">Partitions, Shelvg, Lockers, &amp; office &amp; Store Fixtures</field>
+        </record>
+		<record id="sic_code_code_2590" model="sic_code.code">
+            <field name="name">2590</field>
+            <field name="description">Miscellaneous Furniture &amp; Fixtures</field>
+        </record>
+		<record id="sic_code_code_2600" model="sic_code.code">
+            <field name="name">2600</field>
+            <field name="description">Papers &amp; Allied Products</field>
+        </record>
+		<record id="sic_code_code_2611" model="sic_code.code">
+            <field name="name">2611</field>
+            <field name="description">Pulp Mills</field>
+        </record>
+		<record id="sic_code_code_2621" model="sic_code.code">
+            <field name="name">2621</field>
+            <field name="description">Paper Mills</field>
+        </record>
+		<record id="sic_code_code_2631" model="sic_code.code">
+            <field name="name">2631</field>
+            <field name="description">Paperboard Mills</field>
+        </record>
+		<record id="sic_code_code_2650" model="sic_code.code">
+            <field name="name">2650</field>
+            <field name="description">Paperboard Containers &amp; Boxes</field>
+        </record>
+		<record id="sic_code_code_2670" model="sic_code.code">
+            <field name="name">2670</field>
+            <field name="description">Converted Paper &amp; Paperboard Prods (No Containers/Boxes)</field>
+        </record>
+		<record id="sic_code_code_2673" model="sic_code.code">
+            <field name="name">2673</field>
+            <field name="description">Plastics, Foil &amp; Coated Paper Bags</field>
+        </record>
+		<record id="sic_code_code_2711" model="sic_code.code">
+            <field name="name">2711</field>
+            <field name="description">Newspapers: Publishing or Publishing &amp; Printing</field>
+        </record>
+		<record id="sic_code_code_2721" model="sic_code.code">
+            <field name="name">2721</field>
+            <field name="description">Periodicals: Publishing or Publishing &amp; Printing</field>
+        </record>
+		<record id="sic_code_code_2731" model="sic_code.code">
+            <field name="name">2731</field>
+            <field name="description">Books: Publishing or Publishing &amp; Printing</field>
+        </record>
+		<record id="sic_code_code_2732" model="sic_code.code">
+            <field name="name">2732</field>
+            <field name="description">Book Printing</field>
+        </record>
+		<record id="sic_code_code_2741" model="sic_code.code">
+            <field name="name">2741</field>
+            <field name="description">Miscellaneous Publishing</field>
+        </record>
+		<record id="sic_code_code_2750" model="sic_code.code">
+            <field name="name">2750</field>
+            <field name="description">Commercial Printing</field>
+        </record>
+		<record id="sic_code_code_2761" model="sic_code.code">
+            <field name="name">2761</field>
+            <field name="description">Manifold Business Forms</field>
+        </record>
+		<record id="sic_code_code_2771" model="sic_code.code">
+            <field name="name">2771</field>
+            <field name="description">Greeting Cards</field>
+        </record>
+		<record id="sic_code_code_2780" model="sic_code.code">
+            <field name="name">2780</field>
+            <field name="description">Blankbooks, Looseleaf Binders &amp; Bookbinding &amp; Related Work</field>
+        </record>
+		<record id="sic_code_code_2790" model="sic_code.code">
+            <field name="name">2790</field>
+            <field name="description">Service Industries For The Printing Trade</field>
+        </record>
+		<record id="sic_code_code_2800" model="sic_code.code">
+            <field name="name">2800</field>
+            <field name="description">Chemicals &amp; Allied Products</field>
+        </record>
+		<record id="sic_code_code_2810" model="sic_code.code">
+            <field name="name">2810</field>
+            <field name="description">Industrial Inorganic Chemicals</field>
+        </record>
+		<record id="sic_code_code_2820" model="sic_code.code">
+            <field name="name">2820</field>
+            <field name="description">Plastic Material, Synth Resin/Rubber, Cellulos (No Glass)</field>
+        </record>
+		<record id="sic_code_code_2821" model="sic_code.code">
+            <field name="name">2821</field>
+            <field name="description">Plastic Materials, Synth Resins &amp; Nonvulcan Elastomers</field>
+        </record>
+		<record id="sic_code_code_2833" model="sic_code.code">
+            <field name="name">2833</field>
+            <field name="description">Medicinal Chemicals &amp; Botanical Products</field>
+        </record>
+		<record id="sic_code_code_2834" model="sic_code.code">
+            <field name="name">2834</field>
+            <field name="description">Pharmaceutical Preparations</field>
+        </record>
+		<record id="sic_code_code_2835" model="sic_code.code">
+            <field name="name">2835</field>
+            <field name="description">In Vitro &amp; In Vivo Diagnostic Substances</field>
+        </record>
+		<record id="sic_code_code_2836" model="sic_code.code">
+            <field name="name">2836</field>
+            <field name="description">Biological Products, (No Diagnostic Substances)</field>
+        </record>
+		<record id="sic_code_code_2840" model="sic_code.code">
+            <field name="name">2840</field>
+            <field name="description">Soap, Detergents, Cleaning Preparations, Perfumes, Cosmetics</field>
+        </record>
+		<record id="sic_code_code_2842" model="sic_code.code">
+            <field name="name">2842</field>
+            <field name="description">Specialty Cleaning, Polishing and Sanitation Preparations</field>
+        </record>
+		<record id="sic_code_code_2844" model="sic_code.code">
+            <field name="name">2844</field>
+            <field name="description">Perfumes, Cosmetics &amp; Other Toilet Preparations</field>
+        </record>
+		<record id="sic_code_code_2851" model="sic_code.code">
+            <field name="name">2851</field>
+            <field name="description">Paints, Varnishes, Lacquers, Enamels &amp; Allied Prods</field>
+        </record>
+		<record id="sic_code_code_2860" model="sic_code.code">
+            <field name="name">2860</field>
+            <field name="description">Industrial Organic Chemicals</field>
+        </record>
+		<record id="sic_code_code_2870" model="sic_code.code">
+            <field name="name">2870</field>
+            <field name="description">Agricultural Chemicals</field>
+        </record>
+		<record id="sic_code_code_2890" model="sic_code.code">
+            <field name="name">2890</field>
+            <field name="description">Miscellaneous Chemical Products</field>
+        </record>
+		<record id="sic_code_code_2891" model="sic_code.code">
+            <field name="name">2891</field>
+            <field name="description">Adhesives &amp; Sealants</field>
+        </record>
+		<record id="sic_code_code_2911" model="sic_code.code">
+            <field name="name">2911</field>
+            <field name="description">Petroleum Refining</field>
+        </record>
+		<record id="sic_code_code_2950" model="sic_code.code">
+            <field name="name">2950</field>
+            <field name="description">Asphalt Paving &amp; Roofing Materials</field>
+        </record>
+		<record id="sic_code_code_2990" model="sic_code.code"
+            ><field name="name">2990</field>
+            <field name="description">Miscellaneous Products of Petroleum &amp; Coal</field>
+        </record>
+		<record id="sic_code_code_3011" model="sic_code.code">
+            <field name="name">3011</field>
+            <field name="description">Tires &amp; Inner Tubes</field>
+        </record>
+		<record id="sic_code_code_3021" model="sic_code.code">
+            <field name="name">3021</field>
+            <field name="description">Rubber &amp; Plastics Footwear</field>
+        </record>
+		<record id="sic_code_code_3050" model="sic_code.code">
+            <field name="name">3050</field>
+            <field name="description">Gaskets, Packg &amp; Sealg Devices &amp; Rubber &amp; Plastics Hose</field>
+        </record>
+		<record id="sic_code_code_3060" model="sic_code.code">
+            <field name="name">3060</field>
+            <field name="description">Fabricated Rubber Products, NEC</field>
+        </record>
+		<record id="sic_code_code_3080" model="sic_code.code">
+            <field name="name">3080</field>
+            <field name="description">Miscellaneous Plastics Products</field>
+        </record>
+		<record id="sic_code_code_3081" model="sic_code.code">
+            <field name="name">3081</field>
+            <field name="description">Unsupported Plastics Film &amp; Sheet</field>
+        </record>
+		<record id="sic_code_code_3086" model="sic_code.code">
+            <field name="name">3086</field>
+            <field name="description">Plastics Foam Products</field>
+        </record>
+		<record id="sic_code_code_3089" model="sic_code.code">
+            <field name="name">3089</field>
+            <field name="description">Plastics Products, NEC</field>
+        </record>
+		<record id="sic_code_code_3100" model="sic_code.code">
+            <field name="name">3100</field>
+            <field name="description">Leather &amp; Leather Products</field>
+        </record>
+		<record id="sic_code_code_3140" model="sic_code.code">
+            <field name="name">3140</field>
+            <field name="description">Footwear, (No Rubber)</field>
+        </record>
+		<record id="sic_code_code_3211" model="sic_code.code">
+            <field name="name">3211</field>
+            <field name="description">Flat Glass</field>
+        </record>
+		<record id="sic_code_code_3220" model="sic_code.code">
+            <field name="name">3220</field>
+            <field name="description">Glass &amp; Glassware, Pressed or Blown</field>
+        </record>
+		<record id="sic_code_code_3221" model="sic_code.code">
+            <field name="name">3221</field>
+            <field name="description">Glass Containers</field>
+        </record>
+		<record id="sic_code_code_3231" model="sic_code.code">
+            <field name="name">3231</field>
+            <field name="description">Glass Products, Made of Purchased Glass</field>
+        </record>
+		<record id="sic_code_code_3241" model="sic_code.code">
+            <field name="name">3241</field>
+            <field name="description">Cement, Hydraulic</field>
+        </record>
+		<record id="sic_code_code_3250" model="sic_code.code">
+            <field name="name">3250</field>
+            <field name="description">Structural Clay Products</field>
+        </record>
+		<record id="sic_code_code_3260" model="sic_code.code">
+            <field name="name">3260</field>
+            <field name="description">Pottery &amp; Related Products</field>
+        </record>
+		<record id="sic_code_code_3270" model="sic_code.code">
+            <field name="name">3270</field>
+            <field name="description">Concrete, Gypsum &amp; Plaster Products</field>
+        </record>
+		<record id="sic_code_code_3272" model="sic_code.code">
+            <field name="name">3272</field>
+            <field name="description">Concrete Products, Except Block &amp; Brick</field>
+        </record>
+		<record id="sic_code_code_3281" model="sic_code.code">
+            <field name="name">3281</field>
+            <field name="description">Cut Stone &amp; Stone Products</field>
+        </record>
+		<record id="sic_code_code_3290" model="sic_code.code">
+            <field name="name">3290</field>
+            <field name="description">Abrasive, Asbestos &amp; Misc Nonmetallic Mineral Prods</field>
+        </record>
+		<record id="sic_code_code_3310" model="sic_code.code">
+            <field name="name">3310</field>
+            <field name="description">Steel Works, Blast Furnaces &amp; Rolling &amp; Finishing Mills</field>
+        </record>
+		<record id="sic_code_code_3312" model="sic_code.code">
+            <field name="name">3312</field>
+            <field name="description">Steel Works, Blast Furnaces &amp; Rolling Mills (Coke Ovens)</field>
+        </record>
+		<record id="sic_code_code_3317" model="sic_code.code">
+            <field name="name">3317</field>
+            <field name="description">Steel Pipe &amp; Tubes</field>
+        </record>
+		<record id="sic_code_code_3320" model="sic_code.code">
+            <field name="name">3320</field>
+            <field name="description">Iron &amp; Steel Foundries</field>
+        </record>
+		<record id="sic_code_code_3330" model="sic_code.code">
+            <field name="name">3330</field>
+            <field name="description">Primary Smelting &amp; Refining of Nonferrous Metals</field>
+        </record>
+		<record id="sic_code_code_3334" model="sic_code.code">
+            <field name="name">3334</field>
+            <field name="description">Primary Production of Aluminum</field>
+        </record>
+		<record id="sic_code_code_3341" model="sic_code.code">
+            <field name="name">3341</field>
+            <field name="description">Secondary Smelting &amp; Refining of Nonferrous Metals</field>
+        </record>
+		<record id="sic_code_code_3350" model="sic_code.code">
+            <field name="name">3350</field>
+            <field name="description">Rolling Drawing &amp; Extruding of Nonferrous Metals</field>
+        </record>
+		<record id="sic_code_code_3357" model="sic_code.code">
+            <field name="name">3357</field>
+            <field name="description">Drawing &amp; Insulating of Nonferrous Wire</field>
+        </record>
+		<record id="sic_code_code_3360" model="sic_code.code">
+            <field name="name">3360</field>
+            <field name="description">Nonferrous Foundries (Castings)</field>
+        </record>
+		<record id="sic_code_code_3390" model="sic_code.code">
+            <field name="name">3390</field>
+            <field name="description">Miscellaneous Primary Metal Products</field>
+        </record>
+		<record id="sic_code_code_3411" model="sic_code.code">
+            <field name="name">3411</field>
+            <field name="description">Metal Cans</field>
+        </record>
+		<record id="sic_code_code_3412" model="sic_code.code">
+            <field name="name">3412</field>
+            <field name="description">Metal Shipping Barrels, Drums, Kegs &amp; Pails</field>
+        </record>
+		<record id="sic_code_code_3420" model="sic_code.code">
+            <field name="name">3420</field>
+            <field name="description">Cutlery, Handtools &amp; General Hardware</field>
+        </record>
+		<record id="sic_code_code_3430" model="sic_code.code">
+            <field name="name">3430</field>
+            <field name="description">Heating Equip, Except Elec &amp; Warm Air; &amp; Plumbing Fixtures</field>
+        </record>
+		<record id="sic_code_code_3433" model="sic_code.code">
+            <field name="name">3433</field>
+            <field name="description">Heating Equipment, Except Electric &amp; Warm Air Furnaces</field>
+        </record>
+		<record id="sic_code_code_3440" model="sic_code.code">
+            <field name="name">3440</field>
+            <field name="description">Fabricated Structural Metal Products</field>
+        </record>
+		<record id="sic_code_code_3442" model="sic_code.code">
+            <field name="name">3442</field>
+            <field name="description">Metal Doors, Sash, Frames, Moldings &amp; Trim</field>
+        </record>
+		<record id="sic_code_code_3443" model="sic_code.code">
+            <field name="name">3443</field>
+            <field name="description">Fabricated Plate Work (Boiler Shops)</field>
+        </record>
+		<record id="sic_code_code_3444" model="sic_code.code">
+            <field name="name">3444</field>
+            <field name="description">Sheet Metal Work</field>
+        </record>
+		<record id="sic_code_code_3448" model="sic_code.code">
+            <field name="name">3448</field>
+            <field name="description">Prefabricated Metal Buildings &amp; Components</field>
+        </record>
+		<record id="sic_code_code_3451" model="sic_code.code">
+            <field name="name">3451</field>
+            <field name="description">Screw Machine Products</field>
+        </record>
+		<record id="sic_code_code_3452" model="sic_code.code">
+            <field name="name">3452</field>
+            <field name="description">Bolts, Nuts, Screws, Rivets &amp; Washers</field>
+        </record>
+		<record id="sic_code_code_3460" model="sic_code.code">
+            <field name="name">3460</field>
+            <field name="description">Metal Forgings &amp; Stampings</field>
+        </record>
+		<record id="sic_code_code_3470" model="sic_code.code">
+            <field name="name">3470</field>
+            <field name="description">Coating, Engraving &amp; Allied Services</field>
+        </record>
+		<record id="sic_code_code_3480" model="sic_code.code">
+            <field name="name">3480</field>
+            <field name="description">Ordnance &amp; Accessories, (No Vehicles/Guided Missiles)</field>
+        </record>
+		<record id="sic_code_code_3490" model="sic_code.code">
+            <field name="name">3490</field>
+            <field name="description">Miscellaneous Fabricated Metal Products</field>
+        </record>
+		<record id="sic_code_code_3510" model="sic_code.code">
+            <field name="name">3510</field>
+            <field name="description">Engines &amp; Turbines</field>
+        </record>
+		<record id="sic_code_code_3523" model="sic_code.code">
+            <field name="name">3523</field>
+            <field name="description">Farm Machinery &amp; Equipment</field>
+        </record>
+		<record id="sic_code_code_3524" model="sic_code.code">
+            <field name="name">3524</field>
+            <field name="description">Lawn &amp; Garden Tractors &amp; Home Lawn &amp; Gardens Equip</field>
+        </record>
+		<record id="sic_code_code_3530" model="sic_code.code">
+            <field name="name">3530</field>
+            <field name="description">Construction, Mining &amp; Materials Handling Machinery &amp; Equip</field>
+        </record>
+		<record id="sic_code_code_3531" model="sic_code.code">
+            <field name="name">3531</field>
+            <field name="description">Construction Machinery &amp; Equip</field>
+        </record>
+		<record id="sic_code_code_3532" model="sic_code.code">
+            <field name="name">3532</field>
+            <field name="description">Mining Machinery &amp; Equip (No Oil &amp; Gas Field Mach &amp; Equip)</field>
+        </record>
+		<record id="sic_code_code_3533" model="sic_code.code">
+            <field name="name">3533</field>
+            <field name="description">Oil &amp; Gas Field Machinery &amp; Equipment</field>
+        </record>
+		<record id="sic_code_code_3537" model="sic_code.code">
+            <field name="name">3537</field>
+            <field name="description">Industrial Trucks, Tractors, Trailers &amp; Stackers</field>
+        </record>
+		<record id="sic_code_code_3540" model="sic_code.code">
+            <field name="name">3540</field>
+            <field name="description">Metalworkg Machinery &amp; Equipment</field>
+        </record>
+		<record id="sic_code_code_3541" model="sic_code.code">
+            <field name="name">3541</field>
+            <field name="description">Machine Tools, Metal Cutting Types</field>
+        </record>
+		<record id="sic_code_code_3550" model="sic_code.code">
+            <field name="name">3550</field>
+            <field name="description">Special Industry Machinery (No Metalworking Machinery)</field>
+        </record>
+		<record id="sic_code_code_3555" model="sic_code.code">
+            <field name="name">3555</field>
+            <field name="description">Printing Trades Machinery &amp; Equipment</field>
+        </record>
+		<record id="sic_code_code_3559" model="sic_code.code">
+            <field name="name">3559</field>
+            <field name="description">Special Industry Machinery, NEC</field>
+        </record>
+		<record id="sic_code_code_3560" model="sic_code.code">
+            <field name="name">3560</field>
+            <field name="description">General Industrial Machinery &amp; Equipment</field>
+        </record>
+		<record id="sic_code_code_3561" model="sic_code.code">
+            <field name="name">3561</field>
+            <field name="description">Pumps &amp; Pumping Equipment</field>
+        </record>
+		<record id="sic_code_code_3562" model="sic_code.code">
+            <field name="name">3562</field>
+            <field name="description">Ball &amp; Roller Bearings</field>
+        </record>
+		<record id="sic_code_code_3564" model="sic_code.code">
+            <field name="name">3564</field>
+            <field name="description">Industrial &amp; Commercial Fans &amp; Blowers &amp; Air Purifying Equip</field>
+        </record>
+		<record id="sic_code_code_3567" model="sic_code.code">
+            <field name="name">3567</field>
+            <field name="description">Industrial Process Furnaces &amp; Ovens</field>
+        </record>
+		<record id="sic_code_code_3569" model="sic_code.code">
+            <field name="name">3569</field>
+            <field name="description">General Industrial Machinery &amp; Equipment, NEC</field>
+        </record>
+		<record id="sic_code_code_3570" model="sic_code.code">
+            <field name="name">3570</field><field name="description">Computer &amp; office Equipment</field></record>
+		<record id="sic_code_code_3571" model="sic_code.code">
+            <field name="name">3571</field><field name="description">Electronic Computers</field></record>
+		<record id="sic_code_code_3572" model="sic_code.code">
+            <field name="name">3572</field><field name="description">Computer Storage Devices</field></record>
+		<record id="sic_code_code_3575" model="sic_code.code">
+            <field name="name">3575</field><field name="description">Computer Terminals</field></record>
+		<record id="sic_code_code_3576" model="sic_code.code">
+            <field name="name">3576</field><field name="description">Computer Communications Equipment</field></record>
+		<record id="sic_code_code_3577" model="sic_code.code">
+            <field name="name">3577</field><field name="description">Computer Peripheral Equipment, NEC</field></record>
+		<record id="sic_code_code_3578" model="sic_code.code">
+            <field name="name">3578</field><field name="description">Calculating &amp; Accounting Machines (No Electronic Computers)</field></record>
+		<record id="sic_code_code_3579" model="sic_code.code">
+            <field name="name">3579</field><field name="description">Office Machines, NEC</field></record>
+		<record id="sic_code_code_3580" model="sic_code.code">
+            <field name="name">3580</field><field name="description">Refrigeration &amp; Service Industry Machinery</field></record>
+		<record id="sic_code_code_3585" model="sic_code.code">
+            <field name="name">3585</field><field name="description">Air-Cond &amp; Warm Air Heatg Equip &amp; Comm &amp; Indl Refrig Equip</field></record>
+		<record id="sic_code_code_3590" model="sic_code.code">
+            <field name="name">3590</field><field name="description">Misc Industrial &amp; Commercial Machinery &amp; Equipment</field></record>
+		<record id="sic_code_code_3600" model="sic_code.code">
+            <field name="name">3600</field><field name="description">Electronic &amp; Other Electrical Equipment (No Computer Equip)</field></record>
+		<record id="sic_code_code_3612" model="sic_code.code">
+            <field name="name">3612</field><field name="description">Power, Distribution &amp; Specialty Transformers</field></record>
+		<record id="sic_code_code_3613" model="sic_code.code">
+            <field name="name">3613</field><field name="description">Switchgear &amp; Switchboard Apparatus</field></record>
+		<record id="sic_code_code_3620" model="sic_code.code">
+            <field name="name">3620</field><field name="description">Electrical Industrial Apparatus</field></record>
+		<record id="sic_code_code_3621" model="sic_code.code">
+            <field name="name">3621</field><field name="description">Motors &amp; Generators</field></record>
+		<record id="sic_code_code_3630" model="sic_code.code">
+            <field name="name">3630</field><field name="description">Household Appliances</field></record>
+		<record id="sic_code_code_3634" model="sic_code.code">
+            <field name="name">3634</field><field name="description">Electric Housewares &amp; Fans</field></record>
+		<record id="sic_code_code_3640" model="sic_code.code">
+            <field name="name">3640</field><field name="description">Electric Lighting &amp; Wiring Equipment</field></record>
+		<record id="sic_code_code_3651" model="sic_code.code">
+            <field name="name">3651</field><field name="description">Household Audio &amp; Video Equipment</field></record>
+		<record id="sic_code_code_3652" model="sic_code.code">
+            <field name="name">3652</field><field name="description">Phonograph Records &amp; Prerecorded Audio Tapes &amp; Disks</field></record>
+		<record id="sic_code_code_3661" model="sic_code.code">
+            <field name="name">3661</field><field name="description">Telephone &amp; Telegraph Apparatus</field></record>
+		<record id="sic_code_code_3663" model="sic_code.code">
+            <field name="name">3663</field><field name="description">Radio &amp; TV Broadcasting &amp; Communications Equipment</field></record>
+		<record id="sic_code_code_3669" model="sic_code.code"><field name="name">3669</field><field name="description">Communications Equipment, NEC</field></record>
+		<record id="sic_code_code_3670" model="sic_code.code"><field name="name">3670</field><field name="description">Electronic Components &amp; Accessories</field></record>
+		<record id="sic_code_code_3672" model="sic_code.code"><field name="name">3672</field><field name="description">Printed Circuit Boards</field></record>
+		<record id="sic_code_code_3674" model="sic_code.code"><field name="name">3674</field><field name="description">Semiconductors &amp; Related Devices</field></record>
+		<record id="sic_code_code_3677" model="sic_code.code"><field name="name">3677</field><field name="description">Electronic Coils, Transformers &amp; Other Inductors</field></record>
+		<record id="sic_code_code_3678" model="sic_code.code"><field name="name">3678</field><field name="description">Electronic Connectors</field></record>
+		<record id="sic_code_code_3679" model="sic_code.code"><field name="name">3679</field><field name="description">Electronic Components, NEC</field></record>
+		<record id="sic_code_code_3690" model="sic_code.code"><field name="name">3690</field><field name="description">Miscellaneous Electrical Machinery, Equipment &amp; Supplies</field></record>
+		<record id="sic_code_code_3695" model="sic_code.code"><field name="name">3695</field><field name="description">Magnetic &amp; Optical Recording Media</field></record>
+		<record id="sic_code_code_3711" model="sic_code.code"><field name="name">3711</field><field name="description">Motor Vehicles &amp; Passenger Car Bodies</field></record>
+		<record id="sic_code_code_3713" model="sic_code.code"><field name="name">3713</field><field name="description">Truck &amp; Bus Bodies</field></record>
+		<record id="sic_code_code_3714" model="sic_code.code"><field name="name">3714</field><field name="description">Motor Vehicle Parts &amp; Accessories</field></record>
+		<record id="sic_code_code_3715" model="sic_code.code"><field name="name">3715</field><field name="description">Truck Trailers</field></record>
+		<record id="sic_code_code_3716" model="sic_code.code"><field name="name">3716</field><field name="description">Motor Homes</field></record>
+		<record id="sic_code_code_3720" model="sic_code.code"><field name="name">3720</field><field name="description">Aircraft &amp; Parts</field></record>
+		<record id="sic_code_code_3721" model="sic_code.code"><field name="name">3721</field><field name="description">Aircraft</field></record>
+		<record id="sic_code_code_3724" model="sic_code.code"><field name="name">3724</field><field name="description">Aircraft Engines &amp; Engine Parts</field></record>
+		<record id="sic_code_code_3728" model="sic_code.code"><field name="name">3728</field><field name="description">Aircraft Parts &amp; Auxiliary Equipment, NEC</field></record>
+		<record id="sic_code_code_3730" model="sic_code.code"><field name="name">3730</field><field name="description">Ship &amp; Boat Building &amp; Repairing</field></record>
+		<record id="sic_code_code_3743" model="sic_code.code"><field name="name">3743</field><field name="description">Railroad Equipment</field></record>
+		<record id="sic_code_code_3751" model="sic_code.code"><field name="name">3751</field><field name="description">Motorcycles, Bicycles &amp; Parts</field></record>
+		<record id="sic_code_code_3760" model="sic_code.code"><field name="name">3760</field><field name="description">Guided Missiles &amp; Space Vehicles &amp; Parts</field></record>
+		<record id="sic_code_code_3790" model="sic_code.code"><field name="name">3790</field><field name="description">Miscellaneous Transportation Equipment</field></record>
+		<record id="sic_code_code_3812" model="sic_code.code"><field name="name">3812</field><field name="description">Search, Detection, Navigation, Guidance, Aeronautical Sys</field></record>
+		<record id="sic_code_code_3821" model="sic_code.code"><field name="name">3821</field><field name="description">Laboratory Apparatus &amp; Furniture</field></record>
+		<record id="sic_code_code_3822" model="sic_code.code"><field name="name">3822</field><field name="description">Auto Controls For Regulating Residential &amp; Comml Environments</field></record>
+		<record id="sic_code_code_3823" model="sic_code.code"><field name="name">3823</field><field name="description">Industrial Instruments For Measurement, Display, and Control</field></record>
+		<record id="sic_code_code_3824" model="sic_code.code"><field name="name">3824</field><field name="description">Totalizing Fluid Meters &amp; Counting Devices</field></record>
+		<record id="sic_code_code_3825" model="sic_code.code"><field name="name">3825</field><field name="description">Instruments For Meas &amp; Testing of Electricity &amp; Elec Signals</field></record>
+		<record id="sic_code_code_3826" model="sic_code.code"><field name="name">3826</field><field name="description">Laboratory Analytical Instruments</field></record>
+		<record id="sic_code_code_3827" model="sic_code.code"><field name="name">3827</field><field name="description">Optical Instruments &amp; Lenses</field></record>
+		<record id="sic_code_code_3829" model="sic_code.code"><field name="name">3829</field><field name="description">Measuring &amp; Controlling Devices, NEC</field></record>
+		<record id="sic_code_code_3841" model="sic_code.code"><field name="name">3841</field><field name="description">Surgical &amp; Medical Instruments &amp; Apparatus</field></record>
+		<record id="sic_code_code_3842" model="sic_code.code"><field name="name">3842</field><field name="description">Orthopedic, Prosthetic &amp; Surgical Appliances &amp; Supplies</field></record>
+		<record id="sic_code_code_3843" model="sic_code.code"><field name="name">3843</field><field name="description">Dental Equipment &amp; Supplies</field></record>
+		<record id="sic_code_code_3844" model="sic_code.code"><field name="name">3844</field><field name="description">X-Ray Apparatus &amp; Tubes &amp; Related Irradiation Apparatus</field></record>
+		<record id="sic_code_code_3845" model="sic_code.code"><field name="name">3845</field><field name="description">Electromedical &amp; Electrotherapeutic Apparatus</field></record>
+		<record id="sic_code_code_3851" model="sic_code.code"><field name="name">3851</field><field name="description">Ophthalmic Goods</field></record>
+		<record id="sic_code_code_3861" model="sic_code.code"><field name="name">3861</field><field name="description">Photographic Equipment &amp; Supplies</field></record>
+		<record id="sic_code_code_3873" model="sic_code.code"><field name="name">3873</field><field name="description">Watches, Clocks, Clockwork Operated Devices/Parts</field></record>
+		<record id="sic_code_code_3910" model="sic_code.code"><field name="name">3910</field><field name="description">Jewelry, Silverware &amp; Plated Ware</field></record>
+		<record id="sic_code_code_3911" model="sic_code.code"><field name="name">3911</field><field name="description">Jewelry, Precious Metal</field></record>
+		<record id="sic_code_code_3931" model="sic_code.code"><field name="name">3931</field><field name="description">Musical Instruments</field></record>
+		<record id="sic_code_code_3942" model="sic_code.code"><field name="name">3942</field><field name="description">Dolls &amp; Stuffed Toys</field></record>
+		<record id="sic_code_code_3944" model="sic_code.code"><field name="name">3944</field><field name="description">Games, Toys &amp; Children's Vehicles (No Dolls &amp; Bicycles)</field></record>
+		<record id="sic_code_code_3949" model="sic_code.code"><field name="name">3949</field><field name="description">Sporting &amp; Athletic Goods, NEC</field></record>
+		<record id="sic_code_code_3950" model="sic_code.code"><field name="name">3950</field><field name="description">Pens, Pencils &amp; Other Artists' Materials</field></record>
+		<record id="sic_code_code_3960" model="sic_code.code"><field name="name">3960</field><field name="description">Costume Jewelry &amp; Novelties</field></record>
+		<record id="sic_code_code_3990" model="sic_code.code"><field name="name">3990</field><field name="description">Miscellaneous Manufacturing Industries</field></record>
+		<record id="sic_code_code_4011" model="sic_code.code"><field name="name">4011</field><field name="description">Railroads, Line-Haul Operating</field></record>
+		<record id="sic_code_code_4013" model="sic_code.code"><field name="name">4013</field><field name="description">Railroad Switching &amp; Terminal Establishments</field></record>
+		<record id="sic_code_code_4100" model="sic_code.code"><field name="name">4100</field><field name="description">Local &amp; Suburban Transit &amp; Interurban Hwy Passenger Trans</field></record>
+		<record id="sic_code_code_4210" model="sic_code.code"><field name="name">4210</field><field name="description">Trucking &amp; Courier Services (No Air)</field></record>
+		<record id="sic_code_code_4213" model="sic_code.code"><field name="name">4213</field><field name="description">Trucking (No Local)</field></record>
+		<record id="sic_code_code_4220" model="sic_code.code"><field name="name">4220</field><field name="description">Public Warehousing &amp; Storage</field></record>
+		<record id="sic_code_code_4231" model="sic_code.code"><field name="name">4231</field><field name="description">Terminal Maintenance Facilities For Motor Freight Transport</field></record>
+		<record id="sic_code_code_4400" model="sic_code.code"><field name="name">4400</field><field name="description">Water Transportation</field></record>
+		<record id="sic_code_code_4412" model="sic_code.code"><field name="name">4412</field><field name="description">Deep Sea Foreign Transportation of Freight</field></record>
+		<record id="sic_code_code_4512" model="sic_code.code"><field name="name">4512</field><field name="description">Air Transportation, Scheduled</field></record>
+		<record id="sic_code_code_4513" model="sic_code.code"><field name="name">4513</field><field name="description">Air Courier Services</field></record>
+		<record id="sic_code_code_4522" model="sic_code.code"><field name="name">4522</field><field name="description">Air Transportation, Nonscheduled</field></record>
+		<record id="sic_code_code_4581" model="sic_code.code"><field name="name">4581</field><field name="description">Airports, Flying Fields &amp; Airport Terminal Services</field></record>
+		<record id="sic_code_code_4610" model="sic_code.code"><field name="name">4610</field><field name="description">Pipe Lines (No Natural Gas)</field></record>
+		<record id="sic_code_code_4700" model="sic_code.code"><field name="name">4700</field><field name="description">Transportation Services</field></record>
+		<record id="sic_code_code_4731" model="sic_code.code"><field name="name">4731</field><field name="description">Arrangement of Transportation of Freight &amp; Cargo</field></record>
+		<record id="sic_code_code_4812" model="sic_code.code"><field name="name">4812</field><field name="description">Radiotelephone Communications</field></record>
+		<record id="sic_code_code_4813" model="sic_code.code"><field name="name">4813</field><field name="description">Telephone Communications (No Radiotelephone)</field></record>
+		<record id="sic_code_code_4822" model="sic_code.code"><field name="name">4822</field><field name="description">Telegraph &amp; Other Message Communications</field></record>
+		<record id="sic_code_code_4832" model="sic_code.code"><field name="name">4832</field><field name="description">Radio Broadcasting Stations</field></record>
+		<record id="sic_code_code_4833" model="sic_code.code"><field name="name">4833</field><field name="description">Television Broadcasting Stations</field></record>
+		<record id="sic_code_code_4841" model="sic_code.code"><field name="name">4841</field><field name="description">Cable &amp; Other Pay Television Services</field></record>
+		<record id="sic_code_code_4899" model="sic_code.code"><field name="name">4899</field><field name="description">Communications Services, NEC</field></record>
+		<record id="sic_code_code_4900" model="sic_code.code"><field name="name">4900</field><field name="description">Electric, Gas &amp; Sanitary Services</field></record>
+		<record id="sic_code_code_4911" model="sic_code.code"><field name="name">4911</field><field name="description">Electric Services</field></record>
+		<record id="sic_code_code_4922" model="sic_code.code"><field name="name">4922</field><field name="description">Natural Gas Transmission</field></record>
+		<record id="sic_code_code_4923" model="sic_code.code"><field name="name">4923</field><field name="description">Natural Gas Transmission &amp; Distribution</field></record>
+		<record id="sic_code_code_4924" model="sic_code.code"><field name="name">4924</field><field name="description">Natural Gas Distribution</field></record>
+		<record id="sic_code_code_4931" model="sic_code.code"><field name="name">4931</field><field name="description">Electric &amp; Other Services Combined</field></record>
+		<record id="sic_code_code_4932" model="sic_code.code"><field name="name">4932</field><field name="description">Gas &amp; Other Services Combined</field></record>
+		<record id="sic_code_code_4941" model="sic_code.code"><field name="name">4941</field><field name="description">Water Supply</field></record>
+		<record id="sic_code_code_4950" model="sic_code.code"><field name="name">4950</field><field name="description">Sanitary Services</field></record>
+		<record id="sic_code_code_4953" model="sic_code.code"><field name="name">4953</field><field name="description">Refuse Systems</field></record>
+		<record id="sic_code_code_4955" model="sic_code.code"><field name="name">4955</field><field name="description">Hazardous Waste Management</field></record>
+		<record id="sic_code_code_4961" model="sic_code.code"><field name="name">4961</field><field name="description">Steam &amp; Air-Conditioning Supply</field></record>
+		<record id="sic_code_code_4991" model="sic_code.code"><field name="name">4991</field><field name="description">Co-generation Services &amp; Small Power Producers</field></record>
+		<record id="sic_code_code_5000" model="sic_code.code"><field name="name">5000</field><field name="description">Wholesale-Durable Goods</field></record>
+		<record id="sic_code_code_5010" model="sic_code.code"><field name="name">5010</field><field name="description">Wholesale-Motor Vehicles &amp; Motor Vehicle Parts &amp; Supplies</field></record>
+		<record id="sic_code_code_5013" model="sic_code.code"><field name="name">5013</field><field name="description">Wholesale-Motor Vehicle Supplies &amp; New Parts</field></record>
+		<record id="sic_code_code_5020" model="sic_code.code"><field name="name">5020</field><field name="description">Wholesale-Furniture &amp; Home Furnishings</field></record>
+		<record id="sic_code_code_5030" model="sic_code.code"><field name="name">5030</field><field name="description">Wholesale-Lumber &amp; Other Construction Materials</field></record>
+		<record id="sic_code_code_5031" model="sic_code.code"><field name="name">5031</field><field name="description">Wholesale-Lumber, Plywood, millwork &amp; Wood Panels</field></record>
+		<record id="sic_code_code_5040" model="sic_code.code"><field name="name">5040</field><field name="description">Wholesale-Professional &amp; Commercial Equipment &amp; Supplies</field></record>
+		<record id="sic_code_code_5045" model="sic_code.code"><field name="name">5045</field><field name="description">Wholesale-Computers &amp; Peripheral Equipment &amp; Software</field></record>
+		<record id="sic_code_code_5047" model="sic_code.code"><field name="name">5047</field><field name="description">Wholesale-Medical, Dental &amp; Hospital Equipment &amp; Supplies</field></record>
+		<record id="sic_code_code_5050" model="sic_code.code"><field name="name">5050</field><field name="description">Wholesale-Metals &amp; Minerals (No Petroleum)</field></record>
+		<record id="sic_code_code_5051" model="sic_code.code"><field name="name">5051</field><field name="description">Wholesale-Metals Service Centers &amp; Offices</field></record>
+		<record id="sic_code_code_5063" model="sic_code.code"><field name="name">5063</field><field name="description">Wholesale-Electrical Apparatus &amp; Equipment, Wiring Supplies</field></record>
+		<record id="sic_code_code_5064" model="sic_code.code"><field name="name">5064</field><field name="description">Wholesale-Electrical Appliances, TV &amp; Radio Sets</field></record>
+		<record id="sic_code_code_5065" model="sic_code.code"><field name="name">5065</field><field name="description">Wholesale-Electronic Parts &amp; Equipment, NEC</field></record>
+		<record id="sic_code_code_5070" model="sic_code.code"><field name="name">5070</field><field name="description">Wholesale-Hardware &amp; Plumbing &amp; Heating Equipment &amp; Supplies</field></record>
+		<record id="sic_code_code_5072" model="sic_code.code"><field name="name">5072</field><field name="description">Wholesale-Hardware</field></record>
+		<record id="sic_code_code_5080" model="sic_code.code"><field name="name">5080</field><field name="description">Wholesale-Machinery, Equipment &amp; Supplies</field></record>
+		<record id="sic_code_code_5082" model="sic_code.code"><field name="name">5082</field><field name="description">Wholesale-Construction &amp; Mining (No Petro) Machinery &amp; Equip</field></record>
+		<record id="sic_code_code_5084" model="sic_code.code"><field name="name">5084</field><field name="description">Wholesale-Industrial Machinery &amp; Equipment</field></record>
+		<record id="sic_code_code_5090" model="sic_code.code"><field name="name">5090</field><field name="description">Wholesale-Misc Durable Goods</field></record>
+		<record id="sic_code_code_5094" model="sic_code.code"><field name="name">5094</field><field name="description">Wholesale-Jewelry, Watches, Precious Stones &amp; Metals</field></record>
+		<record id="sic_code_code_5099" model="sic_code.code"><field name="name">5099</field><field name="description">Wholesale-Durable Goods, NEC</field></record>
+		<record id="sic_code_code_5110" model="sic_code.code"><field name="name">5110</field><field name="description">Wholesale-Paper &amp; Paper Products</field></record>
+		<record id="sic_code_code_5122" model="sic_code.code"><field name="name">5122</field><field name="description">Wholesale-Drugs, Proprietaries &amp; Druggists' Sundries</field></record>
+		<record id="sic_code_code_5130" model="sic_code.code"><field name="name">5130</field><field name="description">Wholesale-Apparel, Piece Goods &amp; Notions</field></record>
+		<record id="sic_code_code_5140" model="sic_code.code"><field name="name">5140</field><field name="description">Wholesale-Groceries &amp; Related Products</field></record>
+		<record id="sic_code_code_5141" model="sic_code.code"><field name="name">5141</field><field name="description">Wholesale-Groceries, General Line (merchandise)</field></record>
+		<record id="sic_code_code_5150" model="sic_code.code"><field name="name">5150</field><field name="description">Wholesale-Farm Product Raw Materials</field></record>
+		<record id="sic_code_code_5160" model="sic_code.code"><field name="name">5160</field><field name="description">Wholesale-Chemicals &amp; Allied Products</field></record>
+		<record id="sic_code_code_5171" model="sic_code.code"><field name="name">5171</field><field name="description">Wholesale-Petroleum Bulk Stations &amp; Terminals</field></record>
+		<record id="sic_code_code_5172" model="sic_code.code"><field name="name">5172</field><field name="description">Wholesale-Petroleum &amp; Petroleum Products (No Bulk Stations)</field></record>
+		<record id="sic_code_code_5180" model="sic_code.code"><field name="name">5180</field><field name="description">Wholesale-Beer, Wine &amp; Distilled Alcoholic Beverages</field></record>
+		<record id="sic_code_code_5190" model="sic_code.code"><field name="name">5190</field><field name="description">Wholesale-Miscellaneous Non-durable Goods</field></record>
+		<record id="sic_code_code_5200" model="sic_code.code"><field name="name">5200</field><field name="description">Retail-Building Materials, Hardware, Garden Supply</field></record>
+		<record id="sic_code_code_5211" model="sic_code.code"><field name="name">5211</field><field name="description">Retail-Lumber &amp; Other Building Materials Dealers</field></record>
+		<record id="sic_code_code_5271" model="sic_code.code"><field name="name">5271</field><field name="description">Retail-Mobile Home Dealers</field></record>
+		<record id="sic_code_code_5311" model="sic_code.code"><field name="name">5311</field><field name="description">Retail-Department Stores</field></record>
+		<record id="sic_code_code_5331" model="sic_code.code"><field name="name">5331</field><field name="description">Retail-Variety Stores</field></record>
+		<record id="sic_code_code_5399" model="sic_code.code"><field name="name">5399</field><field name="description">Retail-Misc General Merchandise Stores</field></record>
+		<record id="sic_code_code_5400" model="sic_code.code"><field name="name">5400</field><field name="description">Retail-Food Stores</field></record>
+		<record id="sic_code_code_5411" model="sic_code.code"><field name="name">5411</field><field name="description">Retail-Grocery Stores</field></record>
+		<record id="sic_code_code_5412" model="sic_code.code"><field name="name">5412</field><field name="description">Retail-Convenience Stores</field></record>
+		<record id="sic_code_code_5500" model="sic_code.code"><field name="name">5500</field><field name="description">Retail-Auto Dealers &amp; Gasoline Stations</field></record>
+		<record id="sic_code_code_5531" model="sic_code.code"><field name="name">5531</field><field name="description">Retail-Auto &amp; Home Supply Stores</field></record>
+		<record id="sic_code_code_5600" model="sic_code.code"><field name="name">5600</field><field name="description">Retail-Apparel &amp; Accessory Stores</field></record>
+		<record id="sic_code_code_5621" model="sic_code.code"><field name="name">5621</field><field name="description">Retail-Women's Clothing Stores</field></record>
+		<record id="sic_code_code_5651" model="sic_code.code"><field name="name">5651</field><field name="description">Retail-Family Clothing Stores</field></record>
+		<record id="sic_code_code_5661" model="sic_code.code"><field name="name">5661</field><field name="description">Retail-Shoe Stores</field></record>
+		<record id="sic_code_code_5700" model="sic_code.code"><field name="name">5700</field><field name="description">Retail-Home Furniture, Furnishings &amp; Equipment Stores</field></record>
+		<record id="sic_code_code_5712" model="sic_code.code"><field name="name">5712</field><field name="description">Retail-Furniture Stores</field></record>
+		<record id="sic_code_code_5731" model="sic_code.code"><field name="name">5731</field><field name="description">Retail-Radio, TV &amp; Consumer Electronics Stores</field></record>
+		<record id="sic_code_code_5734" model="sic_code.code"><field name="name">5734</field><field name="description">Retail-Computer &amp; Computer Software Stores</field></record>
+		<record id="sic_code_code_5735" model="sic_code.code"><field name="name">5735</field><field name="description">Retail-Record &amp; Prerecorded Tape Stores</field></record>
+		<record id="sic_code_code_5810" model="sic_code.code"><field name="name">5810</field><field name="description">Retail-Eating &amp; Drinking Places</field></record>
+		<record id="sic_code_code_5812" model="sic_code.code"><field name="name">5812</field><field name="description">Retail-Eating Places</field></record>
+		<record id="sic_code_code_5900" model="sic_code.code"><field name="name">5900</field><field name="description">Retail-Miscellaneous Retail</field></record>
+		<record id="sic_code_code_5912" model="sic_code.code"><field name="name">5912</field><field name="description">Retail-Drug Stores and Proprietary Stores</field></record>
+		<record id="sic_code_code_5940" model="sic_code.code"><field name="name">5940</field><field name="description">Retail-Miscellaneous Shopping Goods Stores</field></record>
+		<record id="sic_code_code_5944" model="sic_code.code"><field name="name">5944</field><field name="description">Retail-Jewelry Stores</field></record>
+		<record id="sic_code_code_5945" model="sic_code.code"><field name="name">5945</field><field name="description">Retail-Hobby, Toy &amp; Game Shops</field></record>
+		<record id="sic_code_code_5960" model="sic_code.code"><field name="name">5960</field><field name="description">Retail-Nonstore Retailers</field></record>
+		<record id="sic_code_code_5961" model="sic_code.code"><field name="name">5961</field><field name="description">Retail-Catalog &amp; Mail-Order Houses</field></record>
+		<record id="sic_code_code_5990" model="sic_code.code"><field name="name">5990</field><field name="description">Retail-Retail Stores, NEC</field></record>
+		<record id="sic_code_code_6012" model="sic_code.code"><field name="name">6012</field><field name="description">Pay Day Lenders</field></record>
+		<record id="sic_code_code_6021" model="sic_code.code"><field name="name">6021</field><field name="description">National Commercial Banks</field></record>
+		<record id="sic_code_code_6022" model="sic_code.code"><field name="name">6022</field><field name="description">State Commercial Banks</field></record>
+		<record id="sic_code_code_6029" model="sic_code.code"><field name="name">6029</field><field name="description">Commercial Banks, NEC</field></record>
+		<record id="sic_code_code_6035" model="sic_code.code"><field name="name">6035</field><field name="description">Savings Institution, Federally Chartered</field></record>
+		<record id="sic_code_code_6036" model="sic_code.code"><field name="name">6036</field><field name="description">Savings Institutions, Not Federally Chartered</field></record>
+		<record id="sic_code_code_6099" model="sic_code.code"><field name="name">6099</field><field name="description">Functions Related To Depository Banking, NEC</field></record>
+		<record id="sic_code_code_6111" model="sic_code.code"><field name="name">6111</field><field name="description">Federal &amp; Federally Sponsored Credit Agencies</field></record>
+		<record id="sic_code_code_6141" model="sic_code.code"><field name="name">6141</field><field name="description">Personal Credit Institutions</field></record>
+		<record id="sic_code_code_6153" model="sic_code.code"><field name="name">6153</field><field name="description">Short-Term Business Credit Institutions</field></record>
+		<record id="sic_code_code_6159" model="sic_code.code"><field name="name">6159</field><field name="description">Miscellaneous Business Credit Institution</field></record>
+		<record id="sic_code_code_6162" model="sic_code.code"><field name="name">6162</field><field name="description">Mortgage Bankers &amp; Loan Correspondents</field></record>
+		<record id="sic_code_code_6163" model="sic_code.code"><field name="name">6163</field><field name="description">Loan Brokers</field></record>
+		<record id="sic_code_code_6172" model="sic_code.code"><field name="name">6172</field><field name="description">Finance Lessors</field></record>
+		<record id="sic_code_code_6189" model="sic_code.code"><field name="name">6189</field><field name="description">Asset-Backed Securities</field></record>
+		<record id="sic_code_code_6199" model="sic_code.code"><field name="name">6199</field><field name="description">Finance Services</field></record>
+		<record id="sic_code_code_6200" model="sic_code.code"><field name="name">6200</field><field name="description">Security &amp; Commodity Brokers, Dealers, Exchanges &amp; Services</field></record>
+		<record id="sic_code_code_6211" model="sic_code.code"><field name="name">6211</field><field name="description">Security Brokers, Dealers &amp; Flotation Companies</field></record>
+		<record id="sic_code_code_6221" model="sic_code.code"><field name="name">6221</field><field name="description">Commodity Contracts Brokers &amp; Dealers</field></record>
+		<record id="sic_code_code_6282" model="sic_code.code"><field name="name">6282</field><field name="description">Investment Advice</field></record>
+		<record id="sic_code_code_6311" model="sic_code.code"><field name="name">6311</field><field name="description">Life Insurance</field></record>
+		<record id="sic_code_code_6321" model="sic_code.code"><field name="name">6321</field><field name="description">Accident &amp; Health Insurance</field></record>
+		<record id="sic_code_code_6324" model="sic_code.code"><field name="name">6324</field><field name="description">Hospital &amp; Medical Service Plans</field></record>
+		<record id="sic_code_code_6331" model="sic_code.code"><field name="name">6331</field><field name="description">Fire, Marine &amp; Casualty Insurance</field></record>
+		<record id="sic_code_code_6351" model="sic_code.code"><field name="name">6351</field><field name="description">Surety Insurance</field></record>
+		<record id="sic_code_code_6361" model="sic_code.code"><field name="name">6361</field><field name="description">Title Insurance</field></record>
+		<record id="sic_code_code_6399" model="sic_code.code"><field name="name">6399</field><field name="description">Insurance Carriers, NEC</field></record>
+		<record id="sic_code_code_6411" model="sic_code.code"><field name="name">6411</field><field name="description">Insurance Agents, Brokers &amp; Service</field></record>
+		<record id="sic_code_code_6500" model="sic_code.code"><field name="name">6500</field><field name="description">Real Estate</field></record>
+		<record id="sic_code_code_6510" model="sic_code.code"><field name="name">6510</field><field name="description">Real Estate Operators (No Developers) &amp; Lessors</field></record>
+		<record id="sic_code_code_6512" model="sic_code.code"><field name="name">6512</field><field name="description">Operators of Nonresidential Buildings</field></record>
+		<record id="sic_code_code_6513" model="sic_code.code"><field name="name">6513</field><field name="description">Operators of Apartment Buildings</field></record>
+		<record id="sic_code_code_6519" model="sic_code.code"><field name="name">6519</field><field name="description">Lessors of Real Property, NEC</field></record>
+		<record id="sic_code_code_6531" model="sic_code.code"><field name="name">6531</field><field name="description">Real Estate Agents &amp; Managers (For Others)</field></record>
+		<record id="sic_code_code_6532" model="sic_code.code"><field name="name">6532</field><field name="description">Real Estate Dealers (For Their Own Account)</field></record>
+		<record id="sic_code_code_6552" model="sic_code.code"><field name="name">6552</field><field name="description">Land Subdividers &amp; Developers (No Cemeteries)</field></record>
+		<record id="sic_code_code_6770" model="sic_code.code"><field name="name">6770</field><field name="description">Blank Checks</field></record>
+		<record id="sic_code_code_6792" model="sic_code.code"><field name="name">6792</field><field name="description">Oil Royalty Traders</field></record>
+		<record id="sic_code_code_6794" model="sic_code.code"><field name="name">6794</field><field name="description">Patent Owners &amp; Lessors</field></record>
+		<record id="sic_code_code_6795" model="sic_code.code"><field name="name">6795</field><field name="description">Mineral Royalty Traders</field></record>
+		<record id="sic_code_code_6798" model="sic_code.code"><field name="name">6798</field><field name="description">Real Estate Investment Trusts</field></record>
+		<record id="sic_code_code_6799" model="sic_code.code"><field name="name">6799</field><field name="description">Investors, NEC</field></record>
+		<record id="sic_code_code_7000" model="sic_code.code"><field name="name">7000</field><field name="description">Hotels, Rooming Houses, Camps &amp; Other Lodging Places</field></record>
+		<record id="sic_code_code_7011" model="sic_code.code"><field name="name">7011</field><field name="description">Hotels &amp; Motels</field></record>
+		<record id="sic_code_code_7200" model="sic_code.code"><field name="name">7200</field><field name="description">Services-Personal Services</field></record>
+		<record id="sic_code_code_7310" model="sic_code.code"><field name="name">7310</field><field name="description">Services-Advertising</field></record>
+		<record id="sic_code_code_7311" model="sic_code.code"><field name="name">7311</field><field name="description">Services-Advertising Agencies</field></record>
+		<record id="sic_code_code_7320" model="sic_code.code"><field name="name">7320</field><field name="description">Services-Consumer Credit Reporting, Collection Agencies</field></record>
+		<record id="sic_code_code_7330" model="sic_code.code"><field name="name">7330</field><field name="description">Services-Mailing, Reproduction, Commercial Art &amp; Photography</field></record>
+		<record id="sic_code_code_7331" model="sic_code.code"><field name="name">7331</field><field name="description">Services-Direct Mail Advertising Services</field></record>
+		<record id="sic_code_code_7334" model="sic_code.code"><field name="name">7334</field><field name="description">Services-Photocopying and Duplicating Services</field></record>
+		<record id="sic_code_code_7340" model="sic_code.code"><field name="name">7340</field><field name="description">Services-To Dwellings &amp; Other Buildings</field></record>
+		<record id="sic_code_code_7350" model="sic_code.code"><field name="name">7350</field><field name="description">Services-Miscellaneous Equipment Rental &amp; Leasing</field></record>
+		<record id="sic_code_code_7359" model="sic_code.code"><field name="name">7359</field><field name="description">Services-Equipment Rental &amp; Leasing, NEC</field></record>
+		<record id="sic_code_code_7361" model="sic_code.code"><field name="name">7361</field><field name="description">Services-Employment Agencies</field></record>
+		<record id="sic_code_code_7363" model="sic_code.code"><field name="name">7363</field><field name="description">Services-Help Supply Services</field></record>
+		<record id="sic_code_code_7370" model="sic_code.code"><field name="name">7370</field><field name="description">Services-Computer Programming, Data Processing, Etc.</field></record>
+		<record id="sic_code_code_7371" model="sic_code.code"><field name="name">7371</field><field name="description">Services-Computer Programming Services</field></record>
+		<record id="sic_code_code_7372" model="sic_code.code"><field name="name">7372</field><field name="description">Services-Prepackaged Software</field></record>
+		<record id="sic_code_code_7373" model="sic_code.code"><field name="name">7373</field><field name="description">Services-Computer Integrated Systems Design</field></record>
+		<record id="sic_code_code_7374" model="sic_code.code"><field name="name">7374</field><field name="description">Services-Computer Processing &amp; Data Preparation</field></record>
+		<record id="sic_code_code_7377" model="sic_code.code"><field name="name">7377</field><field name="description">Services-Computer Rental &amp; Leasing</field></record>
+		<record id="sic_code_code_7380" model="sic_code.code"><field name="name">7380</field><field name="description">Services-Miscellaneous Business Services</field></record>
+		<record id="sic_code_code_7381" model="sic_code.code"><field name="name">7381</field><field name="description">Services-Detective, Guard &amp; Armored Car Services</field></record>
+		<record id="sic_code_code_7384" model="sic_code.code"><field name="name">7384</field><field name="description">Services-Photofinishing Laboratories</field></record>
+		<record id="sic_code_code_7385" model="sic_code.code"><field name="name">7385</field><field name="description">Services-Telephone Interconnect Systems</field></record>
+		<record id="sic_code_code_7389" model="sic_code.code"><field name="name">7389</field><field name="description">Services-Business Services, NEC</field></record>
+		<record id="sic_code_code_7500" model="sic_code.code"><field name="name">7500</field><field name="description">Services-Automotive Repair, Services &amp; Parking</field></record>
+		<record id="sic_code_code_7510" model="sic_code.code"><field name="name">7510</field><field name="description">Services-Auto Rental &amp; Leasing (No Drivers)</field></record>
+		<record id="sic_code_code_7600" model="sic_code.code"><field name="name">7600</field><field name="description">Services-Miscellaneous Repair Services</field></record>
+		<record id="sic_code_code_7812" model="sic_code.code"><field name="name">7812</field><field name="description">Services-Motion Picture &amp; Video Tape Production</field></record>
+		<record id="sic_code_code_7819" model="sic_code.code"><field name="name">7819</field><field name="description">Services-Allied To Motion Picture Production</field></record>
+		<record id="sic_code_code_7822" model="sic_code.code"><field name="name">7822</field><field name="description">Services-Motion Picture &amp; Video Tape Distribution</field></record>
+		<record id="sic_code_code_7829" model="sic_code.code"><field name="name">7829</field><field name="description">Services-Allied To Motion Picture Distribution</field></record>
+		<record id="sic_code_code_7830" model="sic_code.code"><field name="name">7830</field><field name="description">Services-Motion Picture Theaters</field></record>
+		<record id="sic_code_code_7841" model="sic_code.code"><field name="name">7841</field><field name="description">Services-Video Tape Rental</field></record>
+		<record id="sic_code_code_7900" model="sic_code.code"><field name="name">7900</field><field name="description">Services-Amusement &amp; Recreation Services</field></record>
+		<record id="sic_code_code_7948" model="sic_code.code"><field name="name">7948</field><field name="description">Services-Racing, Including Track Operation</field></record>
+		<record id="sic_code_code_7990" model="sic_code.code"><field name="name">7990</field><field name="description">Services-Miscellaneous Amusement &amp; Recreation</field></record>
+		<record id="sic_code_code_7994" model="sic_code.code"><field name="name">7994</field><field name="description">Services-Video Game Arcades</field></record>
+		<record id="sic_code_code_7995" model="sic_code.code"><field name="name">7995</field><field name="description">Services-Gambling Transactions</field></record>
+		<record id="sic_code_code_7996" model="sic_code.code"><field name="name">7996</field><field name="description">Services-Amusement Parks</field></record>
+		<record id="sic_code_code_7997" model="sic_code.code"><field name="name">7997</field><field name="description">Services-Membership Sports &amp; Recreation Clubs</field></record>
+		<record id="sic_code_code_8000" model="sic_code.code"><field name="name">8000</field><field name="description">Services-Health Services</field></record>
+		<record id="sic_code_code_8011" model="sic_code.code"><field name="name">8011</field><field name="description">Services-Offices &amp; Clinics of Doctors of Medicine</field></record>
+		<record id="sic_code_code_8050" model="sic_code.code"><field name="name">8050</field><field name="description">Services-Nursing &amp; Personal Care Facilities</field></record>
+		<record id="sic_code_code_8051" model="sic_code.code"><field name="name">8051</field><field name="description">Services-Skilled Nursing Care Facilities</field></record>
+		<record id="sic_code_code_8060" model="sic_code.code"><field name="name">8060</field><field name="description">Services-Hospitals</field></record>
+		<record id="sic_code_code_8062" model="sic_code.code"><field name="name">8062</field><field name="description">Services-General Medical &amp; Surgical Hospitals, NEC</field></record>
+		<record id="sic_code_code_8071" model="sic_code.code"><field name="name">8071</field><field name="description">Services-Medical Laboratories</field></record>
+		<record id="sic_code_code_8082" model="sic_code.code"><field name="name">8082</field><field name="description">Services-Home Health Care Services</field></record>
+		<record id="sic_code_code_8090" model="sic_code.code"><field name="name">8090</field><field name="description">Services-Misc Health &amp; Allied Services, NEC</field></record>
+		<record id="sic_code_code_8093" model="sic_code.code"><field name="name">8093</field><field name="description">Services-Specialty Outpatient Facilities, NEC</field></record>
+		<record id="sic_code_code_8111" model="sic_code.code"><field name="name">8111</field><field name="description">Services-Legal Services</field></record>
+		<record id="sic_code_code_8200" model="sic_code.code"><field name="name">8200</field><field name="description">Services-Educational Services</field></record>
+		<record id="sic_code_code_8300" model="sic_code.code"><field name="name">8300</field><field name="description">Services-Social Services</field></record>
+		<record id="sic_code_code_8351" model="sic_code.code"><field name="name">8351</field><field name="description">Services-Child Day Care Services</field></record>
+		<record id="sic_code_code_8600" model="sic_code.code"><field name="name">8600</field><field name="description">Services-Membership organizations</field></record>
+		<record id="sic_code_code_8700" model="sic_code.code"><field name="name">8700</field><field name="description">Services-Engineering, Accounting, Research, Management</field></record>
+		<record id="sic_code_code_8711" model="sic_code.code"><field name="name">8711</field><field name="description">Services-Engineering Services</field></record>
+		<record id="sic_code_code_8731" model="sic_code.code"><field name="name">8731</field><field name="description">Services-Commercial Physical &amp; Biological Research</field></record>
+		<record id="sic_code_code_8734" model="sic_code.code"><field name="name">8734</field><field name="description">Services-Testing Laboratories</field></record>
+		<record id="sic_code_code_8741" model="sic_code.code"><field name="name">8741</field><field name="description">Services-Management Services</field></record>
+		<record id="sic_code_code_8742" model="sic_code.code"><field name="name">8742</field><field name="description">Services-Management Consulting Services</field></record>
+		<record id="sic_code_code_8744" model="sic_code.code"><field name="name">8744</field><field name="description">Services-Facilities Support Management Services</field></record>
+		<record id="sic_code_code_8748" model="sic_code.code"><field name="name">8748</field><field name="description">Business Consulting Services, Not Elsewhere Classified</field></record>
+		<record id="sic_code_code_8880" model="sic_code.code"><field name="name">8880</field><field name="description">American Depositary Receipts</field></record>
+		<record id="sic_code_code_8888" model="sic_code.code"><field name="name">8888</field><field name="description">Foreign Governments</field></record>
+		<record id="sic_code_code_8900" model="sic_code.code"><field name="name">8900</field><field name="description">Services-Services, NEC</field></record>
+		<record id="sic_code_code_9721" model="sic_code.code"><field name="name">9721</field><field name="description">International Affairs</field></record>
+		<record id="sic_code_code_9995" model="sic_code.code"><field name="name">9995</field><field name="description">Non-Operating Establishments</field></record>
+-->
+    </data>
+</odoo>
