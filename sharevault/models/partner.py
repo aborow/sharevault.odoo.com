@@ -81,7 +81,7 @@ class Partner(models.Model):
     auditlog_ids_count = fields.Integer('Auditlog count', compute='get_auditlog_count')
 
 
-    ae_targeted = fields.Boolean('AE Targeted')
+    #ae_targeted = fields.Boolean('AE Targeted')
     #annual_revenue = fields.Integer('Annual Revenue')
     #european_union = fields.Boolean('Are you a citizen or resident of the European Union (EU)?')
     #data_source_details = fields.Char('Data Source Details')
