@@ -5,4 +5,4 @@ from odoo.exceptions import ValidationError
 class Partner(models.Model):
     _inherit = 'res.partner'
 
-    sic_code_id = fields.Many2one('sic_code.code', string='SIC Code')
+    sic_code = fields.Char('SIC Code')

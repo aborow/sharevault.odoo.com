@@ -3,7 +3,7 @@ sic_code
 
 
 [ SUMMARY ]
-SIC code for customers
+SIC code for partners
 
 
 [ AUTHOR ]
@@ -24,8 +24,6 @@ Extra Tools
 
 [ DESCRIPTION ]
 
-This module creates a field to enter the 'Standard Industrial Classification' code into the customer's record.
+This module creates a field to enter the 'Standard Industrial Classification' code into the partner's record.
 
-The field is right under the 'Internal Reference' one and is shown only to customers.
-
-The admin area is in Contacts/Configuration/SIC Code. Only admin user can change data.
+The field is right under the 'Internal Reference'.
