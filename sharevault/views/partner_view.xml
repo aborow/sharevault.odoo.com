@@ -140,7 +140,7 @@
                             </group>
                             <group>
                                 <field name="persona_id" required="1"/>
-                                <field name="status_id"/>
+                                <field name="status_id" string="Status"/>
                                 <field name="subindustry_id"/>
                             </group>
                         </group>

@@ -133,7 +133,7 @@ class Partner(models.Model):
     lifecycle_stage_id = fields.Many2one('res.partner.lifecycle_stage', 'Lifecycle stage')
     organization_type_id = fields.Many2one('res.partner.organization_type', 'Organization Type')
     persona_id = fields.Many2one('res.partner.persona', 'Persona')
-    status_id = fields.Many2one('res.partner.status', 'Status')
+    status_id = fields.Many2one('res.partner.status', 'Partner Status')
     subindustry_id = fields.Many2one('res.partner.subindustry', 'Sub Industry')
     contact_type_id = fields.Many2one('res.partner.contact_type', 'Contact Type')
     matter_id = fields.Many2one('res.partner.matter', 'Subject matter most interested in?')
