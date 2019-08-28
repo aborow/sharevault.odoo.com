@@ -139,7 +139,7 @@
                                 <field name="organization_type_id"/>
                             </group>
                             <group>
-                                <field name="persona_id"/>
+                                <field name="persona_id" required="1"/>
                                 <field name="status_id"/>
                                 <field name="subindustry_id"/>
                             </group>

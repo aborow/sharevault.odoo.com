@@ -13,7 +13,7 @@ class Lead(models.Model):
     mql_date = fields.Char('MQL Date')
     mql_recycle_counter = fields.Integer('MQL Recycle counter')
     mql_recycle_store = fields.Integer('MQL Recycle score')
-    mql_type = fields.Selection([], 'MQL Type')
+    mql_type = fields.Selection([('null','null')], 'MQL Type')
     mql_type_date = fields.Date('MQL Type Date')
 
     original_source = fields.Char('Original Source')
