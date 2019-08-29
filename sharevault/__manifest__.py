@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'ShareVault',
-    'version': '1.0',
+    'version': '1.1',
     'category': 'Tools',
     'author': 'Wibtec',
     'website': 'www.wibtec.com',
@@ -26,7 +26,7 @@
             #'data/generic_data.xml',
             'views/sharevault_view.xml',
 
-            #'views/partner_view.xml',
+            'views/partner_view.xml',
             'views/crm_view.xml',
 
             'views/templates.xml',

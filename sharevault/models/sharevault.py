@@ -5,6 +5,7 @@ from odoo import api, fields, models, tools, _
 #import logging
 #_logger = logging.getLogger(__name__)
 
+
 class Sharevault(models.Model):
     _name = 'sharevault.sharevault'
     _description = 'ShareVaults'
@@ -12,7 +13,7 @@ class Sharevault(models.Model):
     name = fields.Char('Name', required=True)
     key = fields.Integer('Key')
     company_id = fields.Many2one('res.company', 'Company')
-    type = fields.Selection([('sv','SV'),('sve','SVe')], 'Type')
+    type = fields.Selection([('sv', 'SV'), ('sve', 'SVe')], 'Type')
     partner_id = fields.Many2one('res.partner', 'Owner')
     partner_id_title = fields.Char('Title', related='partner_id.function')
     partner_id_email = fields.Char('Email', related='partner_id.email')
