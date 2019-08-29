@@ -125,9 +125,9 @@ class Partner(models.Model):
         'Auditlog count', compute='get_auditlog_count')
 
     first_name = fields.Char(
-        'First Name', computed='get_first_last_name', store=True)
+        'First Name', compute='get_first_last_name', store=True)
     last_name = fields.Char(
-        'Last Name', computed='get_first_last_name', store=True)
+        'Last Name', compute='get_first_last_name', store=True)
 
     ae_targeted = fields.Boolean('AE Targeted')
     annual_revenue = fields.Integer('Annual Revenue')
@@ -193,7 +193,6 @@ class Partner(models.Model):
     fax = fields.Char('Fax')
     fax_opt_out = fields.Boolean('Fax Opt Out')
 
-    @api.onchange('name')
     @api.depends('name')
     @api.multi
     def get_first_last_name(self):
