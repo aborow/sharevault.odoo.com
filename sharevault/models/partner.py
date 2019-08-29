@@ -193,6 +193,7 @@ class Partner(models.Model):
     fax = fields.Char('Fax')
     fax_opt_out = fields.Boolean('Fax Opt Out')
 
+    @api.onchange('name')
     @api.depends('name')
     @api.multi
     def get_first_last_name(self):
