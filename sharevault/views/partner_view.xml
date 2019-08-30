@@ -162,6 +162,24 @@
 
 
 
+        <record id="sharevault_fields_persona_tree" model="ir.ui.view">
+            <field name="name">Persona</field>
+            <field name="model">res.partner.persona</field>
+            <field name="arch" type="xml">
+                <tree editable="top">
+                    <field name="name"/>
+                    <field name="active"/>
+                </tree>
+            </field>
+        </record>
+        <record id="sharevault_fields_persona_action" model="ir.actions.act_window">
+            <field name="name">Persona</field>
+            <field name="res_model">res.partner.persona</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree</field>
+            <field name="domain">[('active','in',[True,False])]</field>
+        </record>
+
         <record id="sharevault_fields_job_function_tree" model="ir.ui.view">
             <field name="name">Job Function</field>
             <field name="model">res.partner.job_function</field>
@@ -364,6 +382,12 @@
             parent="sharevault_menu_fields_root"
             action="sharevault_fields_job_function_action"
             sequence="8"/>
+
+        <menuitem id="sharevault_menu_fields_pesona"
+            name="Persona"
+            parent="sharevault_menu_fields_root"
+            action="sharevault_fields_persona_action"
+            sequence="9"/>
 
     </data>
 </odoo>
