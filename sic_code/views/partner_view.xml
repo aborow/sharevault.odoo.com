@@ -7,12 +7,7 @@
             <field name="inherit_id" ref="base.view_res_partner_filter"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='category_id']" position="after">
-                    <field name="sic_code_id"/>
-                </xpath>
-
-                <xpath expr="//filter[@name='group_country']" position="after">
-                    <filter string="SIC Code" name='group_by_sic_code'
-                            context="{'group_by': 'sic_code_id'}"/>
+                    <field name="sic_code"/>
                 </xpath>
             </field>
         </record>
@@ -23,9 +18,8 @@
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='ref']" position="after">
-                    <field name="sic_code_id"
-                        attrs="{'invisible':[('customer','=',False)]}"
-                        options="{'no_quick_create':True,'no_create_edit':True}"/>
+                    <field name="sic_code"
+                        attrs="{'invisible':[('customer','=',False)]}"/>
                 </xpath>
             </field>
         </record>

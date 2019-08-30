@@ -6,98 +6,112 @@ class AccountStatus(models.Model):
     _description = "Partner Account Status"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class DataSource(models.Model):
     _name = 'res.partner.data_source'
     _description = "Partner Data Source"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class UpdateRequest(models.Model):
     _name = 'res.partner.data_update_request'
     _description = "Partner Update Request"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class LeadType(models.Model):
     _name = 'res.partner.lead_type'
     _description = "Partner Lead Type"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class LifecycleStage(models.Model):
     _name = 'res.partner.lifecycle_stage'
     _description = "Partner Lifecycle Stage"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class OrganizationType(models.Model):
     _name = 'res.partner.organization_type'
     _description = "Partner Organization Type"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class Persona(models.Model):
     _name = 'res.partner.persona'
     _description = "Partner Persona"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class Status(models.Model):
     _name = 'res.partner.status'
     _description = "Partner Status"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class Subindustry(models.Model):
     _name = 'res.partner.subindustry'
     _description = "Partner Subindustry"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class ContactType(models.Model):
     _name = 'res.partner.contact_type'
     _description = "Partner Contact Type"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class Matter(models.Model):
     _name = 'res.partner.matter'
     _description = "Partner Matter"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class Tecnology(models.Model):
     _name = 'res.partner.tecnology'
     _description = "Partner Tecnology"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class Confidential(models.Model):
     _name = 'res.partner.confidential'
     _description = "Partner Confidential"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class JobFunction(models.Model):
     _name = 'res.partner.job_function'
     _description = "Partner Job Function"
 
     name = fields.Char('Name')
-    active = fields.Boolean('Active')
+    active = fields.Boolean('Active', default=True)
+
 
 class Partner(models.Model):
     _inherit = 'res.partner'
@@ -105,7 +119,6 @@ class Partner(models.Model):
     sharevault_ids = fields.One2many('sharevault.sharevault', 'partner_id', 'ShareVaults')
     sharevault_ids_count = fields.Integer('ShareVault count', compute='get_sharevault_count')
     auditlog_ids_count = fields.Integer('Auditlog count', compute='get_auditlog_count')
-
 
     first_name = fields.Char('First Name', computed='get_first_last_name', store=True)
     last_name = fields.Char('Last Name', computed='get_first_last_name', store=True)
@@ -159,7 +172,7 @@ class Partner(models.Model):
 
     fax = fields.Char('Fax')
     fax_opt_out = fields.Boolean('Fax Opt Out')
-    
+
 
     @api.onchange('name')
     @api.depends('name')
@@ -170,9 +183,7 @@ class Partner(models.Model):
         if self.company_type == 'person':
             if self.name:
                 aux = self.name.split(' ')
-                _logger.info(aux)
                 first_name = aux[0]
-                _logger.info(first_name)
                 if len(aux)>1:
                     last_name = aux[-1]
         self.first_name = first_name

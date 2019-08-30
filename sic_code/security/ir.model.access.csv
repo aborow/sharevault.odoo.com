@@ -1,7 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_sic_code_code,SIC (code),sic_code.model_sic_code_code,,1,0,0,0
-access_sic_code_code_management,SIC (code) - management,sic_code.model_sic_code_code,base.group_system,1,1,1,1
-access_sic_code_division,SIC (division),sic_code.model_sic_code_division,,1,0,0,0
-access_sic_code_division_management,SIC (division) - management,sic_code.model_sic_code_division,base.group_system,1,1,1,1
-access_sic_code_group,SIC (group),sic_code.model_sic_code_group,,1,0,0,0
-access_sic_code_group_management,SIC (group) - management,sic_code.model_sic_code_group,base.group_system,1,1,1,1
