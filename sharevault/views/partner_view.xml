@@ -92,13 +92,6 @@
                     <field name="function"/>
                     <field name="job_function"/>
                     <field name="job_level"/>
-
-                    <field name="print_on_check_as"
-                            attrs="{'invisible':[('supplier','=',False)]}"/>
-                    <field name="eligible_1099"
-                            attrs="{'invisible':[('supplier','=',False)]}"/>
-                    <field name="vendor_type"
-                            attrs="{'invisible':[('supplier','=',False)]}"/>
                 </xpath>
 
                 <xpath expr="//page[last()]" position="after">
@@ -160,6 +153,13 @@
                                 <field name="persona_id" required="1"/>
                                 <field name="status_id" string="Status"/>
                                 <field name="subindustry_id"/>
+
+                                <field name="print_on_check_as"
+                                        attrs="{'invisible':[('supplier','=',False)]}"/>
+                                <field name="eligible_1099"
+                                        attrs="{'invisible':[('supplier','=',False)]}"/>
+                                <field name="vendor_type"
+                                        attrs="{'invisible':[('supplier','=',False)]}"/>
                             </group>
                         </group>
                         <group>
