@@ -173,17 +173,6 @@ class Partner(models.Model):
     fax = fields.Char('Fax')
     fax_opt_out = fields.Boolean('Fax Opt Out')
 
-    # just for vendors
-    print_on_check_as = fields.Char('Print on Check as')
-    eligible_1099 = fields.Boolean('Eligible for 1099', default=False)
-    vendor_type = fields.Selection([
-                                    ('1099_contractor','1099 contractor'),
-                                    ('consultant','Consultant'),
-                                    ('employee','Eemployee'),
-                                    ('services','Services'),
-                                    ('tax_agency','Tax agency')
-                                    ], 'Vendor Type')
-
 
     @api.onchange('name')
     @api.depends('name')
