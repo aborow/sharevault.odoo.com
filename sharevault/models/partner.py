@@ -179,7 +179,7 @@ class Partner(models.Model):
     vendor_type = fields.Selection([
                                     ('1099_contractor','1099 contractor'),
                                     ('consultant','Consultant'),
-                                    ('employee','Eemployee'),
+                                    ('employee','Employee'),
                                     ('services','Services'),
                                     ('tax_agency','Tax agency')
                                     ], 'Vendor Type')
