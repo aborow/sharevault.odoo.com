@@ -11,6 +11,17 @@
                     <field name="first_name"/>
                     <field name="last_name"/>
                     <field name="contact_type_id"/>
+                    <field name="print_on_check_as"/>
+                    <field name="vendor_type"/>
+                </xpath>
+
+                <xpath expr="//group" position="inside">
+                    <filter name="eligible_1099" domain="[]"
+                            string="Eligible for 1099"
+                            context="{'group_by' : 'eligible_1099'}"/>
+                    <filter name="vendor_type" domain="[]"
+                            string="Vendor Type"
+                            context="{'group_by' : 'vendor_type'}"/>
                 </xpath>
             </field>
         </record>
@@ -81,6 +92,13 @@
                     <field name="function"/>
                     <field name="job_function"/>
                     <field name="job_level"/>
+
+                    <field name="print_on_check_as"
+                            attrs="{'invisible':[('supplier','=',False)]}"/>
+                    <field name="eligible_1099"
+                            attrs="{'invisible':[('supplier','=',False)]}"/>
+                    <field name="vendor_type"
+                            attrs="{'invisible':[('supplier','=',False)]}"/>
                 </xpath>
 
                 <xpath expr="//page[last()]" position="after">
