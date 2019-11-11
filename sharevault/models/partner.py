@@ -124,7 +124,7 @@ class Partner(models.Model):
     last_name = fields.Char('Last Name', computed='get_first_last_name', store=True)
 
     ae_targeted = fields.Boolean('AE Targeted')
-    annual_revenue = fields.Integer('Annual Revenue')
+    annual_revenue = fields.Char('Annual Revenue')
     european_union = fields.Boolean('Are you a citizen or resident of the European Union (EU)?')
     data_source_details = fields.Char('Data Source Details')
     domain = fields.Char('Domain')
